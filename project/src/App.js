@@ -1,24 +1,33 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import {
+  BrowserRouter as Router,
+  Route,
+  NavLink
+} from 'react-router-dom'
+import Movie from './views/Movie'
+import Cinema from './views/Cinema'
+import My from './views/My'
+import Show from './views/Show'
+import Search from './views/Search'
+import Login from './views/Login'
+import router from './router/index'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+      <NavLink to={"/"}>电影</NavLink>
+      <NavLink to={"/cinema"}>影院</NavLink>
+      <NavLink to={"/my"}>我的</NavLink>
+       {
+        router.map((v,i)=>{
+          return(
+              <Route {...v} ></Route>
+          )
+        })
+       }
+      </Router>
     </div>
   );
 }
