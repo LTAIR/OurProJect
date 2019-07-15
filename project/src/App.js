@@ -16,7 +16,7 @@ class  App extends React.Component {
     return (
       <div className="App">
         <Router>
-        <NavLink to={"/"}>电影</NavLink>
+        <NavLink to={"/movie"}>电影</NavLink>
         <NavLink to={"/cinema"}>影院</NavLink>
         <NavLink to={"/my"}>我的</NavLink>
          {
