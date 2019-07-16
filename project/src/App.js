@@ -7,25 +7,25 @@ import {
   NavLink
 } from 'react-router-dom'
 import router from './router/index'
-class  App extends React.Component {
+class App extends React.Component {
   constructor(props) {
     super(props);
-    console.log(this.props.movieList)
+    // console.log(this.props.movieList)
   }
-  render(){
+  render() {
     return (
       <div className="App">
         <Router>
-        <NavLink to={"/movie"}>电影</NavLink>
-        <NavLink to={"/cinema"}>影院</NavLink>
-        <NavLink to={"/my"}>我的</NavLink>
-         {
-          router.map((v,i)=>{
-            return(
+          <NavLink to={"/movie"}>电影</NavLink>
+          <NavLink to={"/cinema"}>影院</NavLink>
+          <NavLink to={"/my"}>我的</NavLink>
+          {
+            router.map((v, i) => {
+              return (
                 <Route key={i} {...v} ></Route>
-            )
-          })
-         }
+              )
+            })
+          }
         </Router>
       </div>
     )

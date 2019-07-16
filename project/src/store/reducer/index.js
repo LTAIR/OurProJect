@@ -1,4 +1,4 @@
-import movieList from './movie'
+import movie from './movie'
 import hotMovie from './hot'
-import {combineReducers} from 'redux'
-export default combineReducers({movieList,hotMovie});
+import { combineReducers } from 'redux'
+export default combineReducers({ movie, hotMovie });

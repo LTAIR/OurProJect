@@ -8,7 +8,7 @@ import Hot from '../components/Hot'
 export default[
     {
         path:"/movie",
-       
+       alias:"/",
         component:Movie,
         name:"电影",
         exact:true,
@@ -16,6 +16,7 @@ export default[
             {
            
                 path:"/movie/",
+                alias:"/",
                 component:Movie,
                 name:"正在热映",
             },{
