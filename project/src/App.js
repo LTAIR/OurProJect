@@ -7,25 +7,25 @@ import {
   NavLink
 } from 'react-router-dom'
 import router from './router/index'
-class  App extends React.Component {
+import Footer from './components/footer'
+class App extends React.Component {
   constructor(props) {
     super(props);
-    
+
   }
-  render(){
+  render() {
     return (
       <div className="App">
         <Router>
-        <NavLink to={"/"}>电影</NavLink>
-        <NavLink to={"/cinema"}>影院</NavLink>
-        <NavLink to={"/my"}>我的</NavLink>
-         {
-          router.map((v,i)=>{
-            return(
-                <Route key={i} {...v} ></Route>
-            )
-          })
-         }
+        {
+            router.map((v, i) => {
+              return (
+                <Route className="footer" key={i} {...v} ></Route>
+              )
+            })
+          }
+        
+         <Footer></Footer>
         </Router>
       </div>
     )

@@ -4,12 +4,28 @@ import My from '../views/My'
 import Show from '../views/Show'
 import Search from '../views/Search'
 import Login from '../views/Login'
+import Hot from '../components/Hot'
 export default[
     {
-        path:"/",
+        path:"/movie",
+       alias:"/",
         component:Movie,
         name:"电影",
-        exact:true
+        exact:true,
+        child:[
+            {
+           
+                path:"/movie/",
+                alias:"/",
+                component:Movie,
+                name:"正在热映",
+            },{
+           
+            path:"/movie/f-hot",
+            component:Hot,
+            name:"即将上映"
+        }]
+       
     },
     {
         path:"/cinema",
@@ -40,5 +56,10 @@ export default[
         component:Show,
         name:"页面详情",
         exact:false
-    }
+    },
+     {
+            path:"/movie/f-hot",
+            component:Hot,
+            name:"即将上映"
+     }
 ]
