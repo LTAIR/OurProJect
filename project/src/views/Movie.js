@@ -1,6 +1,7 @@
 import  React from 'react'
 import axios from 'axios'
 import {connect} from 'react-redux'
+import "../assets/css/movie.css"
 import MovieChange from '../components/moviesChange'
 import {CHANGE_MOVIELIST,ADD_MORECOMINGLIST} from '../store/action/actionType/movie'
 class Tools{
@@ -26,15 +27,23 @@ class Movies extends React.Component{
                     <MovieChange></MovieChange>
                     {this.props.movieList.map((v,i)=>{
                     return(
-                        <div key={v.id}>
-                            <p>{v.nm}</p>
+                        <div className={"movieAll"} key={v.id}>
+                            <div className={"movieLeft"}>
                             <img src={Tools.change(v.img,"140.80")}/>
-                           <div>
-                            <span>观众评:{v.sc}</span>
-                            <input type="button" value={v.globalReleased?"购票":"预售"} />
                             </div>
+                             <div className={"movieRight"}>
+                             <p><i>{v.nm}</i><span style={{display:v.version?"block":"none"}}>{v.version}</span></p>
+                             <p style={{display:(v.sc!==0&&v.globalReleased?"block":"none")}}>观众评 <b>{v.sc}</b></p>
+                             <p style={{display:(v.sc===0&&!v.globalReleased?"block":"none")}}><b>{v.wish}</b>人想看</p>
+                             <p style={{display:(v.sc!==0&&!v.globalReleased?"block":"none")}}>点映评 <b>{v.sc}</b></p>
+                             <p className={"movieStar"}>主演:{v.star}</p>
+                             <p className={"movieShow"}>{v.showInfo}</p>
+                             </div>
+                             <input type="button" value={v.globalReleased?"购票":"预售"} style={{backgroundColor:v.globalReleased?"red":"skyblue"}} />
                         </div>
+
                     )
+                    
                 })}
                 <hr/>
                 {
@@ -64,7 +73,7 @@ function mapDispatchToProps(dispatch,action){
     return {
         getMovieList(num){
             axios.get("/maoyan/ajax/movieOnInfoList?token=&movieIds=").then(({data})=>{
-                // console.log(data);
+                console.log(data.movieList);
                 const movieList=data.movieList;
                 const movieIds=data.movieIds;
                 dispatch({

@@ -7,6 +7,7 @@ import {
   NavLink
 } from 'react-router-dom'
 import router from './router/index'
+import Footer from './components/footer'
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -16,16 +17,15 @@ class App extends React.Component {
     return (
       <div className="App">
         <Router>
-          <NavLink to={"/movie"}>电影</NavLink>
-          <NavLink to={"/cinema"}>影院</NavLink>
-          <NavLink to={"/my"}>我的</NavLink>
-          {
+        {
             router.map((v, i) => {
               return (
-                <Route key={i} {...v} ></Route>
+                <Route className="footer" key={i} {...v} ></Route>
               )
             })
           }
+        
+         <Footer></Footer>
         </Router>
       </div>
     )
