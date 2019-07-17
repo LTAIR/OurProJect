@@ -4,6 +4,7 @@ import My from '../views/My'
 import Show from '../views/Show'
 import Search from '../views/Search'
 import Login from '../views/Login'
+import HuoQu from "../views/HuoQu"
 export default[
     {
         path:"/",
@@ -40,5 +41,13 @@ export default[
         component:Show,
         name:"页面详情",
         exact:false
-    }
+    },{
+        path:"/HuoQu/:id",
+        component:HuoQu,
+        name:"电影详情",
+        exact:false
+
+        
+    },
+ 
 ]
