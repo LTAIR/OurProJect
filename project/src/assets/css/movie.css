@@ -15,6 +15,14 @@ input[type="button"]{
     align-items: center;
     border-bottom: 1px solid #ccc;
 }
+.nav-headers{
+        height:51px;
+        background-color:red;
+        color:#fff;
+        font-size: 18px;
+        line-height: 51px;
+        text-align: center;
+}
 .movieLeft img{
     margin-top:12px;
     width:64px;
@@ -29,6 +37,9 @@ input[type="button"]{
     justify-content: space-around;
 
 }
+.movieRight .sc{
+    font-size: 12px;
+}
 .movieRight p{
     margin:0;
     height:20px;
@@ -41,9 +52,11 @@ input[type="button"]{
     overflow: hidden;
     text-overflow: ellipsis;
    text-align: left;
+  
 }
 .movieRight p i{
-    font-style: normal
+    font-style: normal;
+    font-weight:bold;
 }
 .movieRight p span{
     background-color: blue;

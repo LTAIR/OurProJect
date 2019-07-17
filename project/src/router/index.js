@@ -5,6 +5,7 @@ import Show from '../views/Show'
 import Search from '../views/Search'
 import Login from '../views/Login'
 import Hot from '../components/Hot'
+import MovieAbout from '../components/MovieAbout'
 export default[
     {
         path:"/movie",
@@ -61,5 +62,10 @@ export default[
             path:"/movie/f-hot",
             component:Hot,
             name:"即将上映"
+     },
+     {
+         path:"/movie/:id",
+         component:MovieAbout,
+         name:"电影售票页"
      }
 ]

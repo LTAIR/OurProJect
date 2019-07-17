@@ -7,7 +7,6 @@ import {
   NavLink
 } from 'react-router-dom'
 import router from './router/index'
-import Footer from './components/footer'
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -25,7 +24,7 @@ class App extends React.Component {
             })
           }
         
-         <Footer></Footer>
+         
         </Router>
       </div>
     )
