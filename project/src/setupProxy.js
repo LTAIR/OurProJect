@@ -1,3 +1,4 @@
+
 const proxy=require("http-proxy-middleware")
 // http://m.maoyan.com/ajax/movieOnInfoList?token=
 module.exports=function(app){
@@ -9,6 +10,5 @@ module.exports=function(app){
 		}
 	}))
 	
-	
-	
+
 }

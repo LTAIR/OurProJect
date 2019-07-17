@@ -36,7 +36,7 @@ export default[
         exact:false
     },
     {
-        path:"/show",
+        path:"/show/:id",
         component:Show,
         name:"页面详情",
         exact:false
