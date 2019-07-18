@@ -17,7 +17,6 @@ export default[
             {
            
                 path:"/movie/",
-                alias:"/",
                 component:Movie,
                 name:"正在热映",
             },{
@@ -64,7 +63,7 @@ export default[
             name:"即将上映"
      },
      {
-         path:"/movie/:id",
+         path:"/detailmovie/:id",
          component:MovieAbout,
          name:"电影售票页"
      }

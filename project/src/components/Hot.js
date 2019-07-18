@@ -84,7 +84,6 @@ function mapDispatchToProps(dispatch) {
             })
         },
         getMoreHotComingList(dataUp, num) {
-
             var str = ""
             function getStr(a, b) {
                 dataUp.movieIds.splice(a, b).map((v, i) => {

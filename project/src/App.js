@@ -3,15 +3,10 @@ import logo from './logo.svg';
 import './App.css';
 import {
   BrowserRouter as Router,
-  Route,
-  NavLink
+  Route
 } from 'react-router-dom'
 import router from './router/index'
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-
-  }
   render() {
     return (
       <div className="App">
@@ -23,8 +18,6 @@ class App extends React.Component {
               )
             })
           }
-        
-         
         </Router>
       </div>
     )
