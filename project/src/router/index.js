@@ -67,6 +67,7 @@ export default[
      {
         path:"/movie/f-hot",
         component:Hot,
-        name:"即将上映"
+        name:"即将上映",
+        isShow:true
  },
 ]

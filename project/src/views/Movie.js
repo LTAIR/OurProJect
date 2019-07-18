@@ -4,9 +4,7 @@ import { connect } from 'react-redux'
 import "../assets/css/movie.css"
 import MovieChange from '../components/moviesChange'
 import { CHANGE_MOVIELIST, ADD_MORECOMINGLIST } from '../store/action/actionType/movie'
-import Footer from '../components/footer'
 import Movie from '../components/Movies'
-import Lazy from '../components/lazy'
 class Tools {
     static change(str, newStr) {
         return str.replace("w.h", newStr)
@@ -31,7 +29,6 @@ class Movies extends React.Component {
             <div>
              <MovieChange></MovieChange>
                 <div key={"0"}>
-                    <hr />
                     {this.props.movieList.map((v, i) => {
                         return (
                             <Movie v={v} Tools={Tools} key={i}></Movie>
