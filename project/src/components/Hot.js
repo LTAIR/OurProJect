@@ -37,10 +37,10 @@ class Hot extends React.Component {
                 {
                     this.props.hotMovieList.map((v, i) => {
                         return (
-                            <div className="wishMovie" key={v.id}>
+                            <div className="wishMovie" key={i}>
                                 <img src={Tools.change(v.img, "170.230")} />
                                 <p>{v.nm}</p>
-                                <p class={"wishTitle"}>{Tools.getDay(v.comingTitle)}</p>
+                                <p className={"wishTitle"}>{Tools.getDay(v.comingTitle)}</p>
                             </div>
                         )
                     })
