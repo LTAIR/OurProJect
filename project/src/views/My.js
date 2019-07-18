@@ -4,9 +4,8 @@ class My extends React.Component{
     render(){
         return (
             <div>
-           
                 我的
-                <Footer></Footer>
+                {/* <Footer></Footer> */}
             </div>
         )
     }

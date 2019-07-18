@@ -6,6 +6,7 @@ import {
 import {
 	connect
 } from 'react-redux'
+import Footer from '../components/footer'
 class Tools{
 	static change(str,newStr){
 		return str.replace("w.h",newStr)
@@ -19,7 +20,7 @@ class Show extends React.Component{
     render(){
 		
         return (
-			<div>
+			
             <div>
 				<div className="show-navbar">
 					<i onClick={()=>this.props.history.push("/cinema")}>&lt;</i>
@@ -65,10 +66,10 @@ class Show extends React.Component{
 					</div>
 					
 				</div>
-				
+				<Footer></Footer>
             </div>
 			
-			</div>
+			
         )
     }
 	componentDidMount(){

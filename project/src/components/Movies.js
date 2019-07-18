@@ -1,10 +1,12 @@
 import React from 'react'
+import {withRouter} from 'react-router-dom'
 class Movie extends React.Component{
+    
     render(){
         return (
         <div className={"movieAll"}  onClick={()=>this.props.history.push("/detailmovie/"+this.props.v.id)}>
             <div className={"movieLeft"}>
-                <img src={this.props.Tools.change(this.props.v.img, "140.80")} />
+                <img src={this.props.Tools.change(this.props.v.img, "128.180")} />
             </div>
             <div className={"movieRight"}>
                 <p><i>{this.props.v.nm}</i><span style={{ display: this.props.v.version ? "block" : "none" }}>{this.props.v.version}</span></p>
@@ -17,5 +19,5 @@ class Movie extends React.Component{
         )
     }
 }
-export default Movie;
+export default withRouter(Movie);
 

@@ -12,59 +12,61 @@ export default[
        alias:"/",
         component:Movie,
         name:"电影",
+        isShow:true,
         exact:true,
         child:[
+            {path:"/movie/",
+             alias:"/movie/",
+            component:Movie,
+             name:"电影",
+             exact:true
+            },
             {
-           
-                path:"/movie/",
-                component:Movie,
-                name:"正在热映",
-            },{
-           
-            path:"/movie/f-hot",
-            component:Hot,
-            name:"即将上映"
-        }]
-       
+                path:"/movie/f-hot",
+                component:Hot,
+                name:"即将上映"
+         },
+        ]
     },
     {
         path:"/cinema",
         component:Cinema,
         name:"影院",
-        exact:false
+        exact:false,
+        isShow:true,
     },
     {
         path:"/my",
         component:My,
         name:"我的",
-        exact:false
+        exact:false,
+        isShow:true,
     },
     {
         path:"/login",
         component:Login,
         name:"登录",
-        exact:false
+        exact:false,
+        isShow:false,
     },
     {
         path:"/search",
         component:Search,
         name:"搜索",
-        exact:false
+        exact:false,
+        isShow:false,
     },
-    {
-        path:"/show/:id",
-        component:Show,
-        name:"页面详情",
-        exact:false
-    },
-     {
-            path:"/movie/f-hot",
-            component:Hot,
-            name:"即将上映"
-     },
+     
      {
          path:"/detailmovie/:id",
          component:MovieAbout,
-         name:"电影售票页"
-     }
+         name:"电影售票页",
+         isShow:false,
+         exact:true,
+     },
+     {
+        path:"/movie/f-hot",
+        component:Hot,
+        name:"即将上映"
+ },
 ]

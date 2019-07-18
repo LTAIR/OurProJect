@@ -12,6 +12,7 @@ class Tools {
 class MovieAbout extends React.Component {
     constructor(props) {
         super(props);
+        console.log(this.props);
         this.state = {
             v: {},
             img: ""
@@ -38,9 +39,9 @@ class MovieAbout extends React.Component {
         )
     }
     componentWillMount() {
-        axios.get("/maoyan/ajax/detailmovie?movieId=1189879").then(({ data }) => {
+        axios.get("/maoyan/ajax/detailmovie?movieId="+this.props.match.params.id).then(({ data }) => {
             console.log(data);
-            console.log(data.detailMovie.img)
+            // console.log(data.detailMovie.img)
             this.setState({
                 v: data.detailMovie,
                 img: data.detailMovie.img

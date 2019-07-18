@@ -6,6 +6,7 @@ import MovieChange from '../components/moviesChange'
 import { CHANGE_MOVIELIST, ADD_MORECOMINGLIST } from '../store/action/actionType/movie'
 import Footer from '../components/footer'
 import Movie from '../components/Movies'
+import Lazy from '../components/lazy'
 class Tools {
     static change(str, newStr) {
         return str.replace("w.h", newStr)
@@ -18,7 +19,7 @@ class Movies extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            num: 1
+            num: 0
         }
     }
     componentDidMount() {
@@ -26,10 +27,10 @@ class Movies extends React.Component {
     }
     render() {
         return (
+            
             <div>
+             <MovieChange></MovieChange>
                 <div key={"0"}>
-                    <div className={"nav-headers"}>猫眼电影</div>
-                    <MovieChange></MovieChange>
                     <hr />
                     {this.props.movieList.map((v, i) => {
                         return (
@@ -45,7 +46,7 @@ class Movies extends React.Component {
                     }
                     <input type="button" value={"点击"} onClick={() => { this.setState({ num: ++this.state.num }); console.log(this.state.num); this.props.getMovieList(this.state.num) }} />
                 </div>
-                <Footer></Footer>
+                {/* <Footer></Footer> */}
             </div>
         )
     }
@@ -71,7 +72,20 @@ function mapDispatchToProps(dispatch, action) {
                         movieIds,
                     }
                 })
-                this.getMoreList(data, num);
+                // this.getMoreList(data,num);
+                document.addEventListener('scroll',()=> {
+                    console.log(num+1)
+                    console.log((window.scrollY/500))
+                    if((document.scrollingElement.scrollTop-document.body.cilentHeight)<10){
+                        console.log(window.scrollY)
+                        this.getMoreList(data,num);
+                        console.log(num,"当前num")
+                        num++;
+                        // if(window.scrollY===1200+num*500)
+                        //         num++;
+                    }
+                 })
+                //  this.getMoreList(data, num);
             })
         },
         getMoreList(dataAll, num) {
@@ -84,7 +98,7 @@ function mapDispatchToProps(dispatch, action) {
                 return str
             }
 
-            axios.get("/maoyan/ajax/moreComingList?token=&movieIds=" + getStr(2 + 10 * num, 12 + 10 * num)).then(({ data }) => {
+            axios.get("/maoyan/ajax/moreComingList?token=&movieIds=" + getStr(12 + 10 * num, 22 + 10 * num)).then(({ data }) => {
                 const moreComingList = data.coming;
                 str = str.split("%2C")
                 dispatch({
@@ -97,4 +111,5 @@ function mapDispatchToProps(dispatch, action) {
         }
     }
 }
+
 export default connect(mapStateToProps, mapDispatchToProps)(Movies);

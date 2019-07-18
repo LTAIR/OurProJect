@@ -2,8 +2,10 @@ import React from 'react'
 import MovieChange from '../components/moviesChange'
 import { connect } from 'react-redux'
 import axios from 'axios'
+import Movie from '../components/Movies'
 import { ADD_MOREHOTCOMINGLIST, CHANGE_COMINGMOVIELIST, CHANGE_HOTMOVIELIST, } from '../store/action/actionType/hot'
 import hotMethods,{ getHotMovieLists, getComingLists} from '../store/action/actionCreator/hot'
+import Footer from '../components/footer'
 // { getHotMovieLists, getComingLists}
 class Tools {
     static change(str, newStr) {
@@ -26,6 +28,7 @@ class Hot extends React.Component {
     render() {
         return (
             <div>
+            <div>
                 <MovieChange></MovieChange>
                 {
                     this.props.hotMovieList.map((v, i) => {
@@ -40,23 +43,22 @@ class Hot extends React.Component {
                 <input type="button" value="点击加载" onClick={this.props.getHotMoveList.bind(this, this.props.offset + 10)} />
                 {
                     this.props.comingList.map((v, i) => {
-                        return (<div key={v.id}>
-
-                            <p>{v.nm}</p>
-                            <img src={Tools.change(v.img, "128.180")} />
-                        </div>)
+                        return (
+                            <Movie v={v} Tools={Tools} key={i}></Movie>
+                        )
                     })
                 }
                 {
                     this.props.moreHotComingList.map((v, i) => {
-                        return (<div key={v.id}>
-
-                            <p>{v.nm}</p>
-                            <img src={Tools.change(v.img, "128.180")} />
-                        </div>)
+                        return ( 
+                            <Movie v={v} Tools={Tools} key={i}></Movie>
+                            )
                     })
                 }
                 <input type="button" value={"点击"} onClick={() => { this.setState({ num: ++this.state.num }); console.log("xx", this.state.num); this.props.getComingList(this.state.num) }} />
+                
+            </div>
+            <Footer></Footer>
             </div>
         )
     }
