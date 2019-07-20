@@ -1,19 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {
-  BrowserRouter as Router,
-  Route,
-  NavLink
+  Route
 } from 'react-router-dom'
-import Footer from './components/footer'
-
 import router from './router/index'
 import GuardRouterTwo from './components/guardRouterTwo'
 class App extends React.Component {
   constructor(props) {
     super(props);
-    console.log(this.props)
+    console.log(this.props.cityList)
     if(!localStorage.userNameList)
     localStorage.userNameList=["zhangsan,lisi,wangwu"]
     if(!localStorage.img)
@@ -22,7 +17,6 @@ class App extends React.Component {
     this.state={
       isShowList:[]
     }
-    
     }
     componentDidMount(){
       var arr=[];
@@ -55,6 +49,6 @@ class App extends React.Component {
       </div>
     )
   }
+  
 }
-
 export default App;

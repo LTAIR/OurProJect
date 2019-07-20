@@ -12,9 +12,9 @@ class Footer extends React.Component{
     render(){
         return(
             <div className="footer">
-          <NavLink to={"/movie"}>电影</NavLink>
-          <NavLink to={"/cinema"}>影院</NavLink>
-          <NavLink to={"/my"}>我的</NavLink>
+          <NavLink style={{color:"#000"}} activeStyle={{color:"red"}} to={"/movie"}>电影</NavLink>
+          <NavLink style={{color:"#000"}} activeStyle={{color:"red"}}  to={"/cinema"}>影院</NavLink>
+          <NavLink style={{color:"#000"}} activeStyle={{color:"red"}} to={"/my"}>我的</NavLink>
          
           </div>
         )

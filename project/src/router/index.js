@@ -8,6 +8,7 @@ import Hot from '../components/Hot'
 import MtLogin from '../components/MtLogin'
 import PhLogin from '../components/PhLogin'
 import MovieAbout from '../components/MovieAbout'
+import CityList from '../components/CityList'
 export default [
     {
         path: "/",
@@ -77,6 +78,12 @@ export default [
         path:"/login/phLogin",
         component: PhLogin,
         name: "手机验证登录",
+        exact: true,
+    },
+    {
+        path:"/city-list",
+        component: CityList,
+        name: "城市列表",
         exact: true,
     }
 ]

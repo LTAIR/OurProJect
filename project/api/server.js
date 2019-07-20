@@ -1,10 +1,12 @@
 const express= require("express")
 const bodyParser=require("body-parser")
 const help=require("./module/help")
+const path=require("path")
 const db=require("./module/db")
 const {sendCode} =require("./module/sendCode")
 const app=express();
 app.use(bodyParser.json());
+app.use(express.static(path.resolve(__dirname,"../src")))
 app.all("*",function(request,response,next){//后端跨域
     response.header("Access-Control-Allow-Origin","*");
     response.header("Access-Control-Allow-Headers","content-type");
