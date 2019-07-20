@@ -1,0 +1,32 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.form input[type="text"]{
+    width:90%;
+    height:40px;
+    border:none;
+    border-bottom: 1px solid #ccc;
+}
+div .loginbtn{
+    margin:10px;
+    width:90%;
+    height:40px;
+    border: none;
+    background-color: red;
+    font-size:20px;
+}
+.request{
+    display: flex;
+    justify-content: space-between;
+    padding:5px 10px;
+}
+.request a{
+    color:red;
+    font-size: 14px;
+}
+div p span{
+    color:Red;
+}

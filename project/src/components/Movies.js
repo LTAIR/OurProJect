@@ -1,5 +1,13 @@
 import React from 'react'
 import {withRouter} from 'react-router-dom'
+class Tools {
+    static change(str, newStr) {
+        return str.replace("w.h", newStr)
+    }
+    static double(n) {
+        return n.toFixed(1)
+    }
+}
 class Movie extends React.Component{
     
     render(){
@@ -10,7 +18,7 @@ class Movie extends React.Component{
             </div>
             <div className={"movieRight"}>
                 <p><i>{this.props.v.nm}</i><span style={{ display: this.props.v.version ? "block" : "none" }}>{this.props.v.version}</span></p>
-                {this.props.v.sc !== 0 &&this.props. v.globalReleased ? <p className={"sc"}>观众评 <b>{this.props.Tools.double(this.props.v.sc)}</b></p> : (this.props.v.sc === 0 && !this.props.v.globalReleased ? <p className={"sc"}><b>{this.props.v.wish}</b> 人想看</p> : <p className={"sc"}>点映评 <b>{this.props.Tools.double(this.props.v.sc)}</b></p>)}
+                {this.props.v.sc!== 0 && this.props.v.globalReleased ? <p className={"sc"}>观众评 <b>{this.props.Tools.double(this.props.v.sc)}</b></p> : (this.props.v.sc === 0 && !this.props.v.globalReleased ? <p className={"sc"}><b>{this.props.v.wish}</b> 人想看</p> : <p className={"sc"}>暂无评分</p>)}
                 <p className={"movieStar"}>主演:{this.props.v.star}</p>
                 <p className={"movieShow"}>{this.props.v.showInfo}</p>
             </div>

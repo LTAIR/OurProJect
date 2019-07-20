@@ -1,4 +1,5 @@
 .nav-header{
+    width:100%;
     height:51px;
     background-color:red;
     color:#fff;
@@ -12,13 +13,11 @@
     text-align: left;
     padding-left:20px;
     font-weight: bold;
-    
 }
 .nav-header :last-child{
     text-align: center;
-    padding-left:80px;
-    font-weight: bold;
-    
+    flex-grow:1;
+    margin-left:-15%;
 }
 .nav-detail{
     height:188px;
@@ -47,4 +46,9 @@
 }
 .nav-detail>div>p{
     margin:0;
+    width:230px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
 }

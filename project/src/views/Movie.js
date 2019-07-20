@@ -25,10 +25,9 @@ class Movies extends React.Component {
     }
     render() {
         return (
-            
             <div>
              <MovieChange></MovieChange>
-                <div key={"0"}>
+                <div key={"0"} className={"tops"}>
                     {this.props.movieList.map((v, i) => {
                         return (
                             <Movie v={v} Tools={Tools} key={i}></Movie>
@@ -69,20 +68,7 @@ function mapDispatchToProps(dispatch, action) {
                         movieIds,
                     }
                 })
-                // this.getMoreList(data,num);
-                document.addEventListener('scroll',()=> {
-                    console.log(num+1)
-                    console.log((window.scrollY/500))
-                    if((document.scrollingElement.scrollTop-document.body.cilentHeight)<10){
-                        console.log(window.scrollY)
-                        this.getMoreList(data,num);
-                        console.log(num,"当前num")
-                        num++;
-                        // if(window.scrollY===1200+num*500)
-                        //         num++;
-                    }
-                 })
-                //  this.getMoreList(data, num);
+                this.getMoreList(data,num);
             })
         },
         getMoreList(dataAll, num) {

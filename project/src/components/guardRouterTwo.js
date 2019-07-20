@@ -8,7 +8,13 @@ class GuardRouterTwo extends React.Component{
         super(props);
         console.log(this.props,111)
     }
-    
+    componentWillMount(){
+        if(this.props.Authorization){
+            if(!localStorage.userName){
+                this.props.history.push("/login")
+            }
+        }
+    }
     render(){
         return(
                 this.props.isShow?<Footer/>:""

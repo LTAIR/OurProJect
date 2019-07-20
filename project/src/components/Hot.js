@@ -33,11 +33,11 @@ class Hot extends React.Component {
             <div>
                 <MovieChange></MovieChange>
                 <p className="nowWish">近期最受期待</p>
-                <div className="wish">
+                <div className="wish" >
                 {
                     this.props.hotMovieList.map((v, i) => {
                         return (
-                            <div className="wishMovie" key={i}>
+                            <div className="wishMovie" key={i} onClick={()=>this.props.history.push("/detailmovie/"+v.id)}>
                                 <img src={Tools.change(v.img, "170.230")} />
                                 <p>{v.nm}</p>
                                 <p className={"wishTitle"}>{Tools.getDay(v.comingTitle)}</p>
