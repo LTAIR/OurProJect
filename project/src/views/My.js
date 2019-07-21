@@ -1,13 +1,8 @@
 import React from 'react'
 import '../assets/css/my.css'
 import imga from '../assets/img/4fcec0724e23f.jpg'
+import {NavLink} from 'react-router-dom'
 class My extends React.Component{
-    constructor(props) {
-        super(props);
-        // console.log(localStorage.userName)
-        // let imgFt=JSON.parse(localStorage.img)
-        // console.log(imgFt[localStorage.userName]);
-    }
     
     render(){
         return (
@@ -21,13 +16,13 @@ class My extends React.Component{
                 <div>
                     <p className={"order"}>我的订单</p>
                     <div className={"myOn"}>
-                        <div>电影</div><div>商城</div>
+                        <NavLink style={{color:"#000",textDecoration:"none"}} to={"/order"}>电影</NavLink><NavLink style={{color:"#000",textDecoration:"none"}} to={"/shop"}>商城</NavLink>
                     </div>
                 </div>
                 <div className={"change"}>
-                    <p>在线观影</p>
-                    <p>优惠券</p>
-                    <p>折扣卡</p>
+                    <p><NavLink style={{color:"#000",textDecoration:"none"}} to={"/live"}>在线观影</NavLink></p>
+                    <p><NavLink style={{color:"#000",textDecoration:"none"}} to={"/coupon"}>优惠券</NavLink></p>
+                    <p><NavLink style={{color:"#000",textDecoration:"none"}} to={"/card"}>折扣卡</NavLink></p>
                 </div>
                 </div>
             </div>

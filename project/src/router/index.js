@@ -9,6 +9,11 @@ import MtLogin from '../components/MtLogin'
 import PhLogin from '../components/PhLogin'
 import MovieAbout from '../components/MovieAbout'
 import CityList from '../components/CityList'
+import Order from '../components/Order'
+import Shop from '../components/Shop'
+import Coupon from '../components/Coupon'
+import Live from '../components/Live'
+import Card from '../components/Card'
 export default [
     {
         path: "/",
@@ -85,5 +90,36 @@ export default [
         component: CityList,
         name: "城市列表",
         exact: true,
+    },
+    {
+        path:"/order",
+        component: Order,
+        name: "我的电影订单",
+        exact: true,
+    },
+    {
+        path:"/shop",
+        component: Shop,
+        name: "商城",
+        exact: true,
+    },
+    {
+        path:"/coupon",
+        component: Coupon,
+        name: "优惠卷",
+        exact: true,
+    },
+    {
+        path:"/live",
+        component: Live,
+        name: "在线观影",
+        exact: true,
+    },
+    {
+        path:"/card",
+        component: Card,
+        name: "折扣卡",
+        exact: true,
     }
+
 ]

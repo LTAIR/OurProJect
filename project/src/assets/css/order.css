@@ -1,0 +1,35 @@
+.myOrderTop{
+    text-align: left;
+    padding-left:20px;
+}
+.myOrderMain{
+    display: flex;
+    justify-content: space-around;
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+}
+.myOrderMain img{
+    width:57px;
+    height:80px;
+    margin:10px 20px;
+}
+.orderMovieMain{
+    width:80%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color:#999;
+}
+.orderMovieMain p{
+    margin:5px;
+    color:#000;
+}
+.myOrderUnd{
+display: flex;
+justify-content: space-between;
+padding:20px;
+}
+.myOrderUnd :first-child{
+    color:#999;
+}
