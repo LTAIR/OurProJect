@@ -16,7 +16,7 @@ class My extends React.Component{
                 <div>
                     <p className={"order"}>我的订单</p>
                     <div className={"myOn"}>
-                        <NavLink style={{color:"#000",textDecoration:"none"}} to={"/order"}>电影</NavLink><NavLink style={{color:"#000",textDecoration:"none"}} to={"/shop"}>商城</NavLink>
+                        <NavLink style={{color:"#000",textDecoration:"none"}} to={"/order"}>电影</NavLink> | <NavLink style={{color:"#000",textDecoration:"none"}} to={"/shop"}>商城</NavLink>
                     </div>
                 </div>
                 <div className={"change"}>

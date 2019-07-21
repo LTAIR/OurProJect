@@ -35,12 +35,15 @@
     width:50%;
 }
 .change{
-    /* background-color: #fff; */
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     justify-content:flex-start;
+    border-top:1px solid #999;
 }
 .change p{
     text-align: left;
-    padding-left:10px;
+    margin:0;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
 }
