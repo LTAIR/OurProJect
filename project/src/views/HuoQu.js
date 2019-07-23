@@ -81,11 +81,9 @@ import {
                     </div>
 
                 </div>
-                <div className="jianjie" style={{height:this.state.H?"120px":"210px"}}>
+                <div className="jianjie" style={{height:this.state.H?"120px":"120%"}}>
                       <input className="goumai" type="button" value="特惠购票" / >
-                     {this.state.dra}
-                      
-                     
+                     <p style={{height:this.state.H?"120px":"120%",fontSize:"14px",padding:"15px"}}>{this.state.dra}</p>
                     </div>
 
  <div className="zhankai" onClick={this.zhan.bind(this)}  >{this.state.H?"﹀":"︿"}</div>

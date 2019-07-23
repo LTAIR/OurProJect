@@ -24,7 +24,7 @@ class Cinema extends React.Component {
 			<div className = "cinema-top" > 影院 < /div> 
 			<div className = "cinema-gray-bg" >
 			<div className = "cinema-city-entry" >
-			<span > 北京 < /span> 
+			<span onClick={()=>{this.props.history.push("/city-list")}}> 北京 < /span> 
 			<i > < /i> <
 			/div> <div className = "cinema-search-entry" >
 
