@@ -69,9 +69,7 @@ function mapDispatchToProps(dispatch, action) {
                     }
                 })
                 this.getMoreList(data,num);
-<<<<<<< HEAD
-                
-                // console.log(data.movieIds.splice(11,21))
+
         })
     },
     getMoreList(dataAll,num){
@@ -104,8 +102,7 @@ function mapDispatchToProps(dispatch, action) {
         })
         
         
-=======
-            })
+            
         },
         getMoreList(dataAll, num) {
             var str = ""
@@ -128,7 +125,6 @@ function mapDispatchToProps(dispatch, action) {
                 })
             })
         }
->>>>>>> ca361480fd7c2ab0c358cdc4959ca2536f922020
     }
 }
 
