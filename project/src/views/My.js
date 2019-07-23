@@ -25,7 +25,6 @@ class My extends React.Component{
                     <p><NavLink style={{color:"#000",textDecoration:"none"}} to={"/card"}>折扣卡</NavLink></p>
                 </div>
                 </div>
->>>>>>> eb176b4e527f560937736702d77258c674bfb0e0
             </div>
         )
     }

@@ -65,7 +65,8 @@ export default [
         path: "/movie/f-hot",
         component: Hot,
         name: "即将上映",
-        isShow: true
+        isShow: true,
+        exact: true,
     },
     {
         path: "/movie",
@@ -90,7 +91,7 @@ export default [
         path:"/HuoQu/:id",
         component:HuoQu,
         name:"电影详情",
-        exact:false
+        exact:true
 
         
     },
@@ -100,11 +101,6 @@ export default [
             path:"/movie/f-hot",
             component:Hot,
             name:"即将上映"
-     },
-     {
-         path:"/movie/:id",
-         component:MovieAbout,
-         name:"电影售票页"
      },
     {
         path:"/city-list",
