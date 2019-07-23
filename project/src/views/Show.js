@@ -70,15 +70,11 @@ class Show extends React.Component{
         )
     }
 	componentDidMount(){
-		console.log(11,this.props.show)
 		this.props.getShow(this.props)
-		console.log(1234,this.props.cinemaData)
-		
 		
 	}
 }
 function mapStateToProps(state,props){
-	console.log(1212,props)
 	
 	return{
 		cinemaData:state.show.cinemaData,
@@ -92,9 +88,6 @@ function mapDidpatchToProps(dispatch){
 		getShow(props){
 			axios.get("/maoyan/ajax/cinemaDetail?cinemaId="+props.match.params.id)
 			.then(({data})=>{
-				console.log(999,data)
-				console.log(996,data.showData.movies)
-				console.log(96,data.cinemaData)
 				
 				dispatch({
 					type:"GETSHOW",

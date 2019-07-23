@@ -10,7 +10,7 @@ export default function (state=movieInit,{type,payload}){
     if(type===ADD_MORECOMINGLIST){
         state.moreComingList=state.moreComingList.concat(payload.moreComingList);
         state.page=payload.page
-        // console.log(state.moreComingList)
+        console.log(state.moreComingList)
     }
     return state
 }

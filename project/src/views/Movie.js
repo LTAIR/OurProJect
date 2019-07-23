@@ -100,7 +100,7 @@ function mapDispatchToProps(dispatch,action){
     
         axios.get("/maoyan/ajax/moreComingList?token=&movieIds="+getStr(2+10*num,12+10*num)).then(({data})=>{
            const moreComingList=data.coming;
-        //    console.log(moreComingList)
+           console.log(moreComingList,1)
         //    console.log("aaa",num)
         //    console.log(dataAll.movieIds)
            str=str.split("%2C")
@@ -108,7 +108,7 @@ function mapDispatchToProps(dispatch,action){
         //    console.log(str[0])
         //    console.log(dataAll.movieIds.indexOf(str[0]))
            dispatch({
-               type:ADD_MORECOMINGLIST,
+               type:'ADD_MORECOMINGLIST',
                payload:{
                    moreComingList,
                    
