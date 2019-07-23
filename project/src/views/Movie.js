@@ -1,89 +1,75 @@
-import  React from 'react'
+import React from 'react'
 import axios from 'axios'
-import {connect} from 'react-redux'
+import { connect } from 'react-redux'
 import "../assets/css/movie.css"
 import MovieChange from '../components/moviesChange'
-import {CHANGE_MOVIELIST,ADD_MORECOMINGLIST} from '../store/action/actionType/movie'
-class Tools{
-    static change(str,newStr){
-        return str.replace("w.h",newStr)
+import { CHANGE_MOVIELIST, ADD_MORECOMINGLIST } from '../store/action/actionType/movie'
+import Movie from '../components/Movies'
+class Tools {
+    static change(str, newStr) {
+        return str.replace("w.h", newStr)
+    }
+    static double(n) {
+        return n.toFixed(1)
     }
 }
-class Movies extends React.Component{
+class Movies extends React.Component {
     constructor(props) {
         super(props);
-        // console.log(this.props)
-       this.state={
-           num:1
-       }
+        this.state = {
+            num: 0,
+        }
     }
-    componentDidMount(){
+    componentDidMount() {
         this.props.getMovieList(this.state.num);
-        // console.log(this.props.moreComingList)
     }
-    
-    render(){
-        return(<div>
-                    <MovieChange></MovieChange>
-                    {this.props.movieList.map((v,i)=>{
-                    return(
-                        <div className={"movieAll"} key={v.id}>
-                            <div className={"movieLeft"}>
-                            <img src={Tools.change(v.img,"140.80")}/>
-                            </div>
-                             <div className={"movieRight"}>
-                             <p><i>{v.nm}</i><span style={{display:v.version?"block":"none"}}>{v.version}</span></p>
-                             <p style={{display:(v.sc!==0&&v.globalReleased?"block":"none")}}>观众评 <b>{v.sc}</b></p>
-                             <p style={{display:(v.sc===0&&!v.globalReleased?"block":"none")}}><b>{v.wish}</b>人想看</p>
-                             <p style={{display:(v.sc!==0&&!v.globalReleased?"block":"none")}}>点映评 <b>{v.sc}</b></p>
-                             <p className={"movieStar"}>主演:{v.star}</p>
-                             <p className={"movieShow"}>{v.showInfo}</p>
-                             </div>
-                             <input type="button" value={v.globalReleased?"购票":"预售"} style={{backgroundColor:v.globalReleased?"red":"skyblue"}} />
-                        </div>
-
-                    )
-                    
-                })}
-                <hr/>
-                {
-                    this.props.moreComingList.map((v,i)=>{
-                       return(
-                        <div key={i}>
-                            <p>{v.nm}</p>
-                            <img src={Tools.change(v.img,"140.80")}/>
-                        </div>
-                       ) 
-                    })
-                }
-                <input type="button" value={"点击"} onClick={()=>{this.setState({num:++this.state.num});console.log(this.state.num);this.props.getMovieList(this.state.num)}}/> 
+    render() {
+        return (
+            <div>
+             <MovieChange></MovieChange>
+                <div key={"0"} className={"tops"}>
+                    {this.props.movieList.map((v, i) => {
+                        return (
+                            <Movie v={v} Tools={Tools} key={i}></Movie>
+                        )
+                    })}
+                    {
+                        this.props.moreComingList.map((v, i) => {
+                            return (
+                                <Movie v={v} Tools={Tools} key={i}></Movie>
+                            )
+                        })
+                    }
+                    <input type="button" value={"点击"} onClick={() => { this.setState({ num: ++this.state.num }); console.log(this.state.num); this.props.getMovieList(this.state.num) }} />
                 </div>
+                {/* <Footer></Footer> */}
+            </div>
         )
     }
 }
-function mapStateToProps(state,props){
-    // console.log(state,111)
+function mapStateToProps(state, props) {
     return {
-        movieList:state.movie.movieList,
-        movieIds:state.movieIds,
-        moreComingList:state.movie.moreComingList
+        movieList: state.movie.movieList,
+        movieIds: state.movieIds,
+        moreComingList: state.movie.moreComingList
     }
 }
-function mapDispatchToProps(dispatch,action){
+function mapDispatchToProps(dispatch, action) {
     return {
-        getMovieList(num){
-            axios.get("/maoyan/ajax/movieOnInfoList?token=&movieIds=").then(({data})=>{
+        getMovieList(num) {
+            axios.get("/maoyan/ajax/movieOnInfoList?token=&movieIds=").then(({ data }) => {
                 console.log(data.movieList);
-                const movieList=data.movieList;
-                const movieIds=data.movieIds;
+                const movieList = data.movieList;
+                const movieIds = data.movieIds;
                 dispatch({
-                    type:CHANGE_MOVIELIST,
-                    payload:{
+                    type: CHANGE_MOVIELIST,
+                    payload: {
                         movieList,
                         movieIds,
                     }
                 })
                 this.getMoreList(data,num);
+<<<<<<< HEAD
                 
                 // console.log(data.movieIds.splice(11,21))
         })
@@ -118,6 +104,32 @@ function mapDispatchToProps(dispatch,action){
         })
         
         
+=======
+            })
+        },
+        getMoreList(dataAll, num) {
+            var str = ""
+            function getStr(a, b) {
+                dataAll.movieIds.splice(a, b).map((v, i) => {
+                    return str += v + "%2C"
+                })
+                str = str.slice(0, str.lastIndexOf("%2C"))
+                return str
+            }
+
+            axios.get("/maoyan/ajax/moreComingList?token=&movieIds=" + getStr(12 + 10 * num, 22 + 10 * num)).then(({ data }) => {
+                const moreComingList = data.coming;
+                str = str.split("%2C")
+                dispatch({
+                    type: ADD_MORECOMINGLIST,
+                    payload: {
+                        moreComingList,
+                    }
+                })
+            })
+        }
+>>>>>>> ca361480fd7c2ab0c358cdc4959ca2536f922020
     }
-}}
-export default connect(mapStateToProps,mapDispatchToProps)(Movies);
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Movies);

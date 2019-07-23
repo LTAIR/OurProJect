@@ -1,0 +1,49 @@
+.myTop{
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: red;
+    font-size: 20px;
+    color:#fff;
+}
+.container{
+    height:407px;
+}
+.myPhoto{
+    height:75px;
+    padding: 40px 0;
+    background-color: red;
+}
+.order{
+    margin:10px 0 0 0; 
+    /* background-color: #fff; */
+}
+.myPhoto img{
+    width:75px;
+    height:75px;
+    border-radius: 50%;
+    line-height:100px;
+}
+.myOn{
+    display: flex;
+    height:115px;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: #fff; */
+}
+.myOn div{
+    width:50%;
+}
+.change{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    border-top:1px solid #999;
+}
+.change p{
+    text-align: left;
+    margin:0;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+}

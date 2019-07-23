@@ -6,8 +6,7 @@ import {
 import {
 	connect
 } from 'react-redux'
-import Swiper from 'swiper/dist/js/swiper.js'
-import 'swiper/dist/css/swiper.min.css'
+import Footer from '../components/footer'
 class Tools{
 	static change(str,newStr){
 		return str.replace("w.h",newStr)
@@ -21,6 +20,7 @@ class Show extends React.Component{
     render(){
 		
         return (
+			
             <div>
 				<div className="show-navbar">
 					<i onClick={()=>this.props.history.push("/cinema")}>&lt;</i>
@@ -63,10 +63,13 @@ class Show extends React.Component{
 							}
 							
 						</div>
-						
 					</div>
+					
 				</div>
+				<Footer></Footer>
             </div>
+			
+			
         )
     }
 	componentDidMount(){

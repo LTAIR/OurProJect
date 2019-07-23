@@ -1,15 +1,48 @@
 import React from 'react'
 import {
     BrowserRouter  as Router,
-    NavLink
+    NavLink,
+    Route,
+    withRouter
+    
 } from 'react-router-dom'
-export default class MovieChange extends React.Component{
+import axios from 'axios'
+import '../assets/css/movie.css'
+import { connect } from 'react-redux';
+import CityList from './CityList'
+ class MovieChange extends React.Component{
+    constructor(props) {
+        super(props);
+        this.state={
+            cities:[],
+            ct:"北京"
+        }
+        // console.log(this.props.location.state);
+        
+    }
+    componentDidMount(){
+        this.setState({
+            ct:this.props.location.state || "北京"
+        })
+    }
     render(){
         return (
-        <p>
-        <NavLink to="/movie">正在热映</NavLink> | <NavLink to="/movie/f-hot">即将上映</NavLink>
-        </p>
+        <div className={"allHeaders"}>
+        <div className={"nav-headers"}>猫眼电影</div>
+        <div className={"nav-mv"}>
+        <NavLink  className="see" onClick={()=>{this.getCity()}}  to={"/city-list"} >{this.state.ct}</NavLink><NavLink className="see"activeClassName="isSee" exact to={"/movie"}>正在热映</NavLink>  <NavLink className="see"activeClassName="isSee" to={"/movie/f-hot"}>即将上映</NavLink><button>搜索</button>
+        </div>
+        </div>
         )
     }
-  
+    getCity(){
+        axios.get("/code/assets/json/data.json").then(({data})=>{
+            console.log(data)
+       this.setState={
+           cities:data
+       }
+    })
+    }
 }
+
+export default  withRouter(MovieChange)

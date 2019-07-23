@@ -1,0 +1,80 @@
+.couponAll{
+    display: flex;
+    justify-content: flex-start;
+    margin:10px 10px;
+    border:1px solid #ccc;
+    border-radius:10px;
+}
+.couponLeft{
+    width:30%;
+    box-sizing: border-box;
+    padding:20px;
+    background-color:#ff9d00;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#fff;
+}
+.couponLeft p{
+    margin: 0;
+    width:100%;
+}
+div p .num{
+    font-size: 35px;
+    font-weight: bold;
+    color:#fff;
+}
+.couponLeft hr{
+    width:50px;
+    color:#999
+}
+.couponRight{
+    width:70%;
+    display: flex;
+    padding:10px;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.couponRighto{
+    width:70%;
+    display: flex;
+    padding:10px;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: space-around;
+    background: url("../img/a6a2080c4171a550e1e13d8300820684ba1bacbc9555-bi0fdM_fw658.jpg") no-repeat right;
+    background-size: 40%;
+}
+.couponRight p,.couponRighto p{
+    text-align: left;
+    margin: 0;
+}
+.limitDesc{
+    font-size: 12px;
+    color:#999;
+    padding: 5px;
+}
+.couponRight hr,.couponRighto hr{
+    width:100%;
+    color:#999;
+}
+.couponRight .rangeTime,.couponRighto .rangeTime{
+    text-align: right;
+    font-size: 14px;
+    width:100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.couponRight .leftDate,.couponRighto .leftDate{
+    text-align: right;
+    color:Red;
+}
+.couponRight .title,.couponRighto .title{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
