@@ -8,6 +8,7 @@ import {
 } from 'react-router-dom'
 import axios from 'axios'
 import '../assets/css/movie.css'
+import '../assets/iconfont/iconfont.css'
 import { connect } from 'react-redux';
 import CityList from './CityList'
  class MovieChange extends React.Component{
@@ -30,7 +31,7 @@ import CityList from './CityList'
         <div className={"allHeaders"}>
         <div className={"nav-headers"}>猫眼电影</div>
         <div className={"nav-mv"}>
-        <NavLink  className="see" onClick={()=>{this.getCity()}}  to={"/city-list"} >{this.state.ct}</NavLink><NavLink className="see"activeClassName="isSee" exact to={"/movie"}>正在热映</NavLink>  <NavLink className="see"activeClassName="isSee" to={"/movie/f-hot"}>即将上映</NavLink><button onClick={()=>this.props.history.push("/search")}>搜索</button>
+        <NavLink  className="see" onClick={()=>{this.getCity()}}  to={"/city-list"} >{this.state.ct}</NavLink><NavLink className="see"activeClassName="isSee" exact to={"/movie"}>正在热映</NavLink>  <NavLink className="see"activeClassName="isSee" to={"/movie/f-hot"}>即将上映</NavLink><span style={{color:"red"}} className={"iconfont icon-xingtaiduICON_sousuo---copy"} onClick={()=>this.props.history.push("/search")}></span>
         </div>
         </div>
         )
