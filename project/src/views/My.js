@@ -9,6 +9,7 @@ import {
   } from 'react-router-dom'
   import HuoQu from "./HuoQu"
 
+import Footer from '../components/footer'
 class My extends React.Component{
 
     render(){
@@ -18,6 +19,9 @@ class My extends React.Component{
                 <NavLink to={"/Search"}>搜索电影</NavLink>
             
                     
+           
+                我的
+                <Footer></Footer>
             </div>
         )
     }

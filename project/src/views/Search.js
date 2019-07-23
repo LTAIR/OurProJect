@@ -14,6 +14,11 @@ class Search extends React.Component{
             arr:[],
             p:false,
             q:"",
+            arr1:[],
+            
+            zuo:"查看全部",
+            you:"影视"
+            
         }
     }
    
@@ -36,15 +41,24 @@ class Search extends React.Component{
                 <div className="iu">
                 
               
-                <input type="text"  onKeyUp={this.Cf.bind(this)} ref={"dy"} placeholder="搜电影、搜影院" / >
-                <i  style={{display:this.state.p?"block":"none"}} onClick={this.qk.bind(this)} >×</i>
+                <input type="text"   onKeyUp={this.Cf.bind(this)} ref={"dy"} placeholder="搜电影、搜影院" / >
+                <i  style={{display:this.state.p?"block":"none"}}  onClick={()=>{
+                        this.setState({
+                            zuo:"查看全部",
+                            you:"影视",
+                            arr:[],
+                             p:false,
+                            arr1:[]
+                        })
+                        this.refs.dy.value="";
+                }} >×</i>
                 <div className="tz"><span onClick={()=>{
                     this.props.history.go(-1)
                 }}>取消</span></div>
               
                 </div>
       
-                         <div className="ls" style={{display:this.state.p?"none":"block"}}>
+                         <div className="ls" style={{display:this.state.p?"none":"block"}} >
                          <span style={{display:this.state.q?"block":"none"}} className="left"> 搜索记录
 
                          </span>
@@ -74,17 +88,39 @@ class Search extends React.Component{
                                 return(
                                      <NavLink key={i} className="xianshi" to={"/HuoQu/"+v.id}>
                                     
-                                    <img src={m} alt="" />
-                                    <h2>{v.nm}</h2>
-                                    <p>{v.enm}</p>
-                                    <p>{v.cat}</p>
-                                    <p>{v.rt}</p>
+                                <div className="zuobian">    <img src={m} alt="" /></div>
+                                <div className="youbian"> 
+                                   <h2>{v.nm}</h2>    
+                                    <p className="er">{v.enm}</p>
+                                    <p className="san">{v.cat}</p>
+                                    <p className="si">{v.rt}</p>
+                                </div>    
                                     </NavLink>
                                    
                                 )
                             })
                         }
                         </div>     
+
+
+                        <div className="lakai" onClick={()=>{
+                            
+                            this.setState({
+                                zuo:"没有更",
+                                you:"多了哦"
+                           })
+                            if(this.state.arr1.length===this.state.arr.length){
+                                alert("已经到底了")
+                                
+
+                            }
+                            this.setState({
+                                   
+                                  arr:this.state.arr1,
+                                  
+
+                            })
+                        }}  style={{display:this.state.arr1.length>3?"block":"none"}}  >{this.state.zuo}{this.state.you}</div>
                   </div>{/*box*/}
                  
 
@@ -101,33 +137,53 @@ class Search extends React.Component{
             </div>
         )
     }
- qk(){
-         this.setState({   
-           arr:[],
-           p:false
-        })
-    this.refs.dy.value="";
+ 
     
-    }
+    
+
+
+  
 
     Cf(){
-        axios.get("/move/ajax/search?kw="+this.refs.dy.value+"&cityId=1").then(({data})=>{
-               
-                
-                 this.setState({
+        axios.get("/maoyan/ajax/search?kw="+this.refs.dy.value+"&cityId=1").then(({data})=>{
+         
+         
+        
+            //    console.log(data.movies.list)
+                    this.setState({
                      
-                        arr:data.movies?data.movies.list : [],
+                        arr:data.movies?data.movies.list.slice(0,3) : [],
                         p:data.movies?true:false,
                         q:this.refs.dy.value,
+                        arr1:data.movies?data.movies.list:[],
+                       
                          
                     })
+           
+               
+                    // const kk=["1","2","3","4","5","6","7","8"]
+                    // const kk1=["4","4"]
+                    // console.log(kk.slice(3))
+                    //   const kk2=kk1.push(kk.slice(3))
+                    // console.log(kk2,22)
                         
         })
+      
     }
 
     componentDitUpdate(){
         
-                    this.Cf();   
+        
+      
+        this.Cf(); 
+       
+           
+         
+
+
+                    
+                   
+                    
         }
     
 }

@@ -41,17 +41,11 @@ ul{
     position:absolute;
   left: 300px;
  z-index: 1;
- top: 95px;
+ top: 72px;
 }
 
 
-.xianshi{
-    list-style:none;
-    height: 118px;
-  
-    display: block;
 
-}
 .ls .cha{
     float: right;
 
@@ -62,32 +56,101 @@ ul{
 }
 
 .dianshi{
-    height: 25px;
- 
+    height: 24px;  
+    padding-right: 200px;
+   padding-bottom: 10px;
+
     border-bottom: 1px #e6e6e6 solid;
    
 }
 .dianshi p{
-    margin-right: 200px;
-    margin-bottom: 10px;
+  
+ 
+  
+   color :#999;
 }   
 .xianshi{
+    list-style:none;
+    height: 118px;
+    display: block;
     border-bottom: 1px #e6e6e6 solid;
+
 }
-.xianshi h2{
-      font-size: 15px;
-      float: left;
-}
+
+
 .xianshi p{
     font-size: 12px;
-    float: left;
+    float: right;
 }
-.xianshi img{
-    float: left;
+.xianshi .zuobian{
+    position: absolute;
+    left: 15px;
+    margin-top: 10px;
 }
+.xianshi .youbian{
+   
+    float: right;
+    width: 270px;
+    height: 100px;
+    margin-top: 10px;
+
+    position: relative;
+    
+}
+.youbian h2{
+    word-break:keep-all; 
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    -webkit-line-clamp: 1;
+    width: 200px;
+    float: left;
+    font-size: 17px;
+    float: left;
+    position: absolute;
+    top: -13px;
+    color:#222;
+    text-align: left;
+
+}
+.youbian .er{
+    text-align: left;
+  
+    width: 200px;
+    position: absolute;
+    font-size: 14px;
+    top: 13px;
+   display: block;
+    word-break:keep-all; 
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    -webkit-line-clamp: 1;
+    color:#666;
+    
+}
+.youbian .san{
+    position: absolute;
+    font-size: 14px;
+    top: 33px;
+    color:#666;
+    
+}
+.youbian .si{
+    font-size: 14px;
+    position: absolute;
+    top: 55px;
+    color:#666;
+}
+
+
 .tz span{
     float: right;
     margin-right: 10px;
     margin-top: -23px;
-    background: red;
+  
+}
+.lakai{
+    height: 30px;
+   color: red;
 }

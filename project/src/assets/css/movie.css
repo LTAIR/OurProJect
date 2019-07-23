@@ -1,0 +1,83 @@
+input[type="button"]{
+    width:50px;
+    height:30px;
+    border:0;
+    color:#fff;
+    border-radius:5px;
+}
+.movieAll{
+    width:100%;
+    box-sizing: border-box;
+    padding: 0 20px;
+    height:114px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+.nav-headers{
+        height:51px;
+        background-color:red;
+        color:#fff;
+        font-size: 18px;
+        line-height: 51px;
+        text-align: center;
+}
+.movieLeft img{
+    margin-top:12px;
+    width:64px;
+    height:90px;
+}
+.movieRight{
+    height:114px;
+    box-sizing: border-box;
+    padding:12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.movieRight .sc{
+    font-size: 12px;
+}
+.movieRight p{
+    margin:0;
+    height:20px;
+    display: flex;
+    justify-content: flex-start;
+    text-align:left;
+    display:inline-block;
+    width:200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+   text-align: left;
+  
+}
+.movieRight p i{
+    font-style: normal;
+    font-weight:bold;
+}
+.movieRight p span{
+    background-color: blue;
+    color:#fff;
+    border-radius: 5px;
+    padding:0 2px;
+}
+.movieRight p.movieStar{
+    display:inline-block;
+    width:200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+   text-align: left;
+   font-size: 13px;
+}
+.movieRight p b{
+    font-weight: 700;
+    color: #faaf00;
+    font-size: 15px;
+}
+.movieRight p.movieShow{
+    font-size:12px;
+}

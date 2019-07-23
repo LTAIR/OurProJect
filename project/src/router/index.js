@@ -5,12 +5,29 @@ import Show from '../views/Show'
 import Search from '../views/Search'
 import Login from '../views/Login'
 import HuoQu from "../views/HuoQu"
+import Hot from '../components/Hot'
+import MovieAbout from '../components/MovieAbout'
 export default[
     {
-        path:"/",
+        path:"/movie",
+       alias:"/",
         component:Movie,
         name:"电影",
-        exact:true
+        exact:true,
+        child:[
+            {
+           
+                path:"/movie/",
+                alias:"/",
+                component:Movie,
+                name:"正在热映",
+            },{
+           
+            path:"/movie/f-hot",
+            component:Hot,
+            name:"即将上映"
+        }]
+       
     },
     {
         path:"/cinema",
@@ -37,7 +54,7 @@ export default[
         exact:false
     },
     {
-        path:"/show",
+        path:"/show/:id",
         component:Show,
         name:"页面详情",
         exact:false
@@ -50,4 +67,15 @@ export default[
         
     },
  
+   
+     {
+            path:"/movie/f-hot",
+            component:Hot,
+            name:"即将上映"
+     },
+     {
+         path:"/movie/:id",
+         component:MovieAbout,
+         name:"电影售票页"
+     }
 ]

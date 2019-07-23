@@ -45,8 +45,8 @@ import {
                     this.props.history.go(-1)
                 }}>  <span>＜</span>
                 </div>
-               <div>
-                  <i>{this.state.name}</i>
+               <div className="biaoti">
+                 <i>{this.state.name}</i>
                </div>
                 </div>
 
@@ -81,11 +81,24 @@ import {
                     </div>
 
                 </div>
-                <div className="jianjie">
+                <div className="jianjie" style={{height:this.state.H?"120px":"210px"}}>
                       <input className="goumai" type="button" value="特惠购票" / >
-                      <div className="jianjie1" style={{height:this.state.H?"60px":"170px"}} >{this.state.dra}</div>
+                     {this.state.dra}
                       
-                      <div className="zhankai" onClick={this.zhan.bind(this)} >{this.state.H?"﹀":"︿"}</div>
+                     
+                    </div>
+
+ <div className="zhankai" onClick={this.zhan.bind(this)}  >{this.state.H?"﹀":"︿"}</div>
+
+
+                    <div className="fenli">
+                    </div>
+
+
+                    <div className="yanyuan">
+                             <div className="yanyuan1">
+                             </div>
+
                     </div>
 
 
@@ -100,7 +113,7 @@ import {
 
    Diao(){
     const id=this.props.match.params.id
-       axios.get("/move/ajax/detailmovie?movieId="+id+"").then((data)=>{
+       axios.get("/maoyan/ajax/detailmovie?movieId="+id+"").then((data)=>{
            console.log(data,11)
            console.log(data.data.detailMovie,22)
            const str = new  String(data.data.detailMovie.img);
@@ -108,9 +121,8 @@ import {
            const Sj=data.data.detailMovie
            const a=(Sj.watched/10000).toFixed(1)
                 
-                
-        
-             
+              
+            //  console.log(Sj.dra)
        
              this.setState({
                  Arr:Sj,

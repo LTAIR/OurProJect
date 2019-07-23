@@ -2,6 +2,21 @@
     height: 60px;
     background: #e54847;
 }
+.biaoti i{
+    margin-top: 15px;
+   
+    float: left;
+    font-size: 20px;
+    color:#fff;
+    width: 250px;
+    word-break:keep-all; 
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    -webkit-line-clamp: 1;
+    text-align: left;
+    margin-left: 22px;
+}
 .miaoshu{
    
     height: 183px;
@@ -26,17 +41,32 @@
     position: absolute;
     top: -20px;
     color: #fff;
+    width: 200px;
+    word-break:keep-all; 
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    -webkit-line-clamp: 1;
+    text-align: left;
 }
 .you .er{
     position: absolute;
     top: 20px;
     width: 230px;
+    text-align: left;
 
 
 }
 .you b{
+    width: 200px;
+    word-break:keep-all; 
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    -webkit-line-clamp: 1;
     font-size: 12px;
     float: left;
+    text-align: left;
     color: #fff;
 }
 .you li{
@@ -82,27 +112,31 @@
 .xia .pf{
    
     font-size: 12px; float: left;
-   
+    text-align: left;
     color: #fff;
 }
 .xia .biaoqian{
     font-size: 12px;
     float: left;
     color: #fff;
+    text-align: left;
 }
 .xia .y2{
     width: 230px;
     height: 30px;
     position: absolute;
     top: 25px;
+    text-align: left;
   
 }
 .xia .didian{
     font-size: 12px;
+    text-align: left;
     float: left;
     color: #fff;
 }
 .xia .y3{
+    text-align: left;
     width: 230px;
     height: 30px;
     position: absolute;
@@ -111,11 +145,13 @@
 
 }
 .xia .shijian{
+    text-align: left;
     font-size: 12px;
     float: left;
     color: #fff;
 }
 .xia .y4{
+    text-align: left;
     width: 230px;
     height: 30px;
     position: absolute;
@@ -124,7 +160,7 @@
 }
 .xia .yi{
     position: absolute;
-   
+    text-align: left;
     width: 230px;
     right: 150px;
 
@@ -132,8 +168,17 @@
     background: blue;
 }
 .jianjie{
-    height: 143px;
-    background: red;
+    position: relative;
+ display: block;
+ width: 371px;
+  font-size: 14px; 
+ word-break:keep-all; 
+ white-space:wrap;
+ overflow:hidden;
+ text-overflow:ellipsis;
+ text-align: justify;
+ 
+   
 }
 .jianjie input{
     width:345px;
@@ -145,23 +190,26 @@
     font-size: 17px;
     color: #fff;
 }
-.jianjie1{
-    display: block;
-    width: 375px;
-  font-size: 14px;
-    background: #ffc600;
-   
-            word-break:keep-all; 
-        white-space:wrap;
-        overflow:hidden;
-        text-overflow:ellipsis;
-       
-}
+
 .zhankai{
-    position: relative;
   
-    
-}
+    position: relative;
+    font-size: 20px;
+  
+  
 
     
+}
+.fenli{
+    height: 12px;
+    background:#f4f4f4;
+    border-top: 1px #e5e5e5 solid;
+    border-bottom: 1px #e5e5e5 solid;
+
+}
+.yanyuan{
+    height: 162px;
+    background: red;
+}
+  
 
