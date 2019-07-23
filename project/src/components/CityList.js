@@ -15,7 +15,7 @@ class CityList extends React.Component{
                         <p className={"cityTop"}>{v.title}</p>
                       { v.lists.map((v,i)=>{
                     return(
-                               <div  className={"cityC"} key={i} >
+                               <div  className={"cityC"} key={i} onClick={()=>this.props.history.push("/movie",v)} >
                                   {v}
                                </div>
                            )
