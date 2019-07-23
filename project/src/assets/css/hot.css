@@ -1,0 +1,44 @@
+.nowWish{
+    text-align: left;
+    padding-left: 15px;
+    line-height: 16px;
+    margin:5px;
+}
+.wish{
+    display:flex;
+    justify-content: flex-start;
+    height:20%;
+    flex-wrap: nowrap;
+    overflow:auto;
+    border-left:10px solid #fff;
+    border-right:10px solid #fff;
+}
+.wishMovie{
+    width:27%;
+    height:100%;
+    padding:10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wishMovie p{
+    margin:0;
+    width:100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    text-align: left;
+    color:#000;
+    font-weight: bolder;
+}
+.wishMovie .wishTitle{
+    font-size: 12px;
+    color:#999;
+}
+.wishMovie img{
+    width:85px;
+    height:115px;
+}

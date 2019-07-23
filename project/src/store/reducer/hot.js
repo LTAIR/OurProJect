@@ -8,7 +8,7 @@ export default function (state = hotMovieInit, { type, payload }) {
         state.movieIds = payload.hotMovie.movieIds
     }
     if (type === "ADD_MOREHOTCOMINGLIST") {
-        state.moreHotComingList = payload.moreHotComingList;
+        state.moreHotComingList = state.moreHotComingList.concat(payload.moreHotComingList);
         state.page = payload.page
         console.log(state.moreHotComingList)
     }

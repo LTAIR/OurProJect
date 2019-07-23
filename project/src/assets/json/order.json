@@ -1,0 +1,174 @@
+{
+    "orderlist": [{
+        "ui": {
+            "cate": 300
+        },
+        "gift": {
+            "giftFlag": 2
+        },
+        "promotion": {},
+        "migrate": {
+            "allow": false,
+            "role": "unmigrate",
+            "display": false
+        },
+        "award": {},
+        "movie": {
+            "id": 343720,
+            "name": "后来的我们",
+            "img": "http://p0.meituan.net/w.h/movie/8c0af864aa72c46eb15c003d46ebfdc8602165.jpg",
+            "eggsDesc": "片尾有2个彩蛋，不要错过哦"
+        },
+        "show": {
+            "startTime": 1525075800000,
+            "dim": "2D",
+            "language": "国语",
+            "showTime": "2018-04-30 周一 16:10"
+        },
+        "id": 3091215754,
+        "order": {
+            "uniqueStatus": 10,
+            "payLimitMin": 14,
+            "leftPaySecond": 0,
+            "payStatus": 1,
+            "sellMoney": 59.9,
+            "fixStatus": 1,
+            "isMigrate": 0,
+            "groupRelationFlag": 2,
+            "orderTime": 1524646614000,
+            "payTime": 1524646659000,
+            "fixTime": 1524646660000
+        },
+        "cinema": {
+            "id": 1945,
+            "takePlace": "影院内猫眼取票机",
+            "allowRefund": 1,
+            "name": "利群华艺国际影院(龙口店)",
+            "migrate": {
+                "allow": true
+            }
+        },
+        "refund": {
+            "detailUrl": "http://m.maoyan.com/order/3091215754/refund?_v_=yes&cinemaId=1945",
+            "refundProgress": 0,
+            "allow": 0,
+            "shouldDisplayRefund": 0,
+            "notAllowRefundReason": "您的订单已取票，无法退款"
+        },
+        "seats": {
+            "hallName": "1号厅",
+            "count": 2,
+            "sectionName": "",
+            "list": [{
+                "rowId": "7",
+                "columnId": "06",
+                "type": "N"
+            }, {
+                "rowId": "7",
+                "columnId": "05",
+                "type": "N"
+            }]
+        },
+        "pricePackages": {},
+        "comment": {
+            "id": 0,
+            "status": 0,
+            "score": 0
+        },
+        "user": {},
+        "exchange": {
+            "originId": "",
+            "qrcode": "2018043096546159",
+            "exchangeCodeName": "验证码",
+            "originIdName": "",
+            "exchangeCode": "2018043096546159"
+        },
+        "otherStatus": "已完成"
+    }, {
+        "ui": {
+            "cate": 400
+        },
+        "gift": {
+            "giftFlag": 2
+        },
+        "promotion": {},
+        "migrate": {
+            "allow": false,
+            "role": "unmigrate",
+            "display": false
+        },
+        "award": {},
+        "movie": {
+            "id": 343720,
+            "name": "后来的我们",
+            "img": "http://p0.meituan.net/w.h/movie/8c0af864aa72c46eb15c003d46ebfdc8602165.jpg",
+            "eggsDesc": "片尾有2个彩蛋，不要错过哦"
+        },
+        "show": {
+            "startTime": 1525075800000,
+            "dim": "2D",
+            "language": "国语",
+            "showTime": "2018-04-30 周一 16:10"
+        },
+        "id": 3090756922,
+        "order": {
+            "uniqueStatus": 8,
+            "payLimitMin": 14,
+            "leftPaySecond": 0,
+            "payStatus": 1,
+            "sellMoney": 66,
+            "fixStatus": 1,
+            "isMigrate": 0,
+            "groupRelationFlag": 2,
+            "orderTime": 1524612691000,
+            "payTime": 1524612724000,
+            "fixTime": 1524612725000
+        },
+        "cinema": {
+            "id": 1945,
+            "takePlace": "影院内猫眼取票机",
+            "allowRefund": 1,
+            "name": "利群华艺国际影院(龙口店)",
+            "migrate": {
+                "allow": true
+            }
+        },
+        "refund": {
+            "detailUrl": "http://m.maoyan.com/order/3090756922/refund?_v_=yes&cinemaId=1945",
+            "refundProgress": 2,
+            "allow": 0,
+            "shouldDisplayRefund": 1,
+            "notAllowRefundReason": ""
+        },
+        "seats": {
+            "hallName": "1号厅",
+            "count": 2,
+            "sectionName": "",
+            "list": [{
+                "rowId": "7",
+                "columnId": "06",
+                "type": "N"
+            }, {
+                "rowId": "7",
+                "columnId": "05",
+                "type": "N"
+            }]
+        },
+        "pricePackages": {},
+        "comment": {
+            "id": 0,
+            "status": 0,
+            "score": 0
+        },
+        "user": {},
+        "exchange": {
+            "originId": "",
+            "qrcode": "2018043047336055",
+            "exchangeCodeName": "验证码",
+            "originIdName": "",
+            "exchangeCode": "2018043047336055"
+        },
+        "otherStatus": "退款成功",
+        "refundStatus": true
+    }]
+}

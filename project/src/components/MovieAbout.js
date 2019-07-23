@@ -12,6 +12,7 @@ class Tools {
 class MovieAbout extends React.Component {
     constructor(props) {
         super(props);
+        console.log(this.props);
         this.state = {
             v: {},
             img: ""
@@ -22,7 +23,7 @@ class MovieAbout extends React.Component {
         return (
             <div>
                 <div className={"nav-header"}><span onClick={()=>this.props.history.go(-1)}>&lt;</span><span>{movieAbout.v.nm}</span></div>
-                <div className={"nav-detail"}>
+                <div className={"nav-detail"} onClick={()=>this.props.history.push("/HuoQu/"+movieAbout.v.id)}>
                 <img src={Tools.change(movieAbout.img, "148.208")} />
                 <div className={"nav-detail-center"}>
                 <p>{movieAbout.v.nm}</p>
@@ -38,9 +39,9 @@ class MovieAbout extends React.Component {
         )
     }
     componentWillMount() {
-        axios.get("/maoyan/ajax/detailmovie?movieId=1189879").then(({ data }) => {
+        axios.get("/maoyan/ajax/detailmovie?movieId="+this.props.match.params.id).then(({ data }) => {
             console.log(data);
-            console.log(data.detailMovie.img)
+            // console.log(data.detailMovie.img)
             this.setState({
                 v: data.detailMovie,
                 img: data.detailMovie.img

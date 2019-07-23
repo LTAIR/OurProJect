@@ -93,15 +93,6 @@ import {
 
                     <div className="fenli">
                     </div>
-
-
-                    <div className="yanyuan">
-                             <div className="yanyuan1">
-                             </div>
-
-                    </div>
-
-
               </div>
               
           )

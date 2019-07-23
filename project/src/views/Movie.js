@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 import "../assets/css/movie.css"
 import MovieChange from '../components/moviesChange'
 import { CHANGE_MOVIELIST, ADD_MORECOMINGLIST } from '../store/action/actionType/movie'
-import Footer from '../components/footer'
+import Movie from '../components/Movies'
 class Tools {
     static change(str, newStr) {
         return str.replace("w.h", newStr)
@@ -16,70 +16,38 @@ class Tools {
 class Movies extends React.Component {
     constructor(props) {
         super(props);
-        // console.log(this.props)
         this.state = {
-            num: 1
+            num: 0,
         }
     }
     componentDidMount() {
         this.props.getMovieList(this.state.num);
-        // console.log(this.props.moreComingList)
     }
-
     render() {
         return (
             <div>
-
-            
-            <div key={"0"}>
-            <div className={"nav-headers"}>猫眼电影</div>
-                <MovieChange></MovieChange>
-                <hr/>
-                {this.props.movieList.map((v, i) => {
-                    return (
-                        <div className={"movieAll"} key={v.id} onClick={()=>this.props.history.push("movie/"+v.id)}>
-                            <div className={"movieLeft"}>
-                                <img src={Tools.change(v.img, "140.80")} />
-                            </div>
-                            <div className={"movieRight"}>
-                                <p><i>{v.nm}</i><span style={{ display: v.version ? "block" : "none" }}>{v.version}</span></p>
-                                {v.sc !== 0 && v.globalReleased ? <p className={"sc"}>观众评 <b>{Tools.double(v.sc)}</b></p> : (v.sc === 0 && !v.globalReleased ? <p className={"sc"}><b>{v.wish}</b> 人想看</p> : <p className={"sc"}>点映评 <b>{Tools.double(v.sc)}</b></p>)}
-                                <p className={"movieStar"}>主演:{v.star}</p>
-                                <p className={"movieShow"}>{v.showInfo}</p>
-                            </div>
-                            <input type="button" value={v.globalReleased ? "购票" : "预售"} style={{ backgroundColor: v.globalReleased ? "red" : "skyblue" }} />
-                        </div>
-
-                    )
-
-                })}
-                {
-                    this.props.moreComingList.map((v, i) => {
+             <MovieChange></MovieChange>
+                <div key={"0"} className={"tops"}>
+                    {this.props.movieList.map((v, i) => {
                         return (
-                            <div className={"movieAll"} key={i}>
-                                <div className={"movieLeft"}>
-                                    <img src={Tools.change(v.img, "140.80")} />
-                                </div>
-                                <div className={"movieRight"}>
-                                    <p><i>{v.nm}</i><span style={{ display: v.version ? "block" : "none" }}>{v.version}</span></p>
-                                    {v.sc !== 0 && v.globalReleased ? <p className={"sc"}>观众评 <b>{Tools.double(v.sc)}</b></p> : (v.sc === 0 && !v.globalReleased ? <p className={"sc"}><b>{v.wish}</b> 人想看</p> : <p className={"sc"}>点映评 <b>{Tools.double(v.sc)}</b></p>)}
-                                    <p className={"movieStar"}>主演:{v.star}</p>
-                                    <p className={"movieShow"}>{v.showInfo}</p>
-                                </div>
-                                <input type="button" value={v.globalReleased ? "购票" : "预售"} style={{ backgroundColor: v.globalReleased ? "red" : "skyblue" }} />
-                            </div>
+                            <Movie v={v} Tools={Tools} key={i}></Movie>
                         )
-                    })
-                }
-                <input type="button" value={"点击"} onClick={() => { this.setState({ num: ++this.state.num }); console.log(this.state.num); this.props.getMovieList(this.state.num) }} />
-            </div>
-            <Footer></Footer>
+                    })}
+                    {
+                        this.props.moreComingList.map((v, i) => {
+                            return (
+                                <Movie v={v} Tools={Tools} key={i}></Movie>
+                            )
+                        })
+                    }
+                    <input type="button" value={"点击"} onClick={() => { this.setState({ num: ++this.state.num }); console.log(this.state.num); this.props.getMovieList(this.state.num) }} />
+                </div>
+                {/* <Footer></Footer> */}
             </div>
         )
     }
 }
 function mapStateToProps(state, props) {
-    // console.log(state,111)
     return {
         movieList: state.movie.movieList,
         movieIds: state.movieIds,
@@ -100,10 +68,41 @@ function mapDispatchToProps(dispatch, action) {
                         movieIds,
                     }
                 })
-                this.getMoreList(data, num);
+                this.getMoreList(data,num);
 
-                // console.log(data.movieIds.splice(11,21))
-            })
+        })
+    },
+    getMoreList(dataAll,num){
+        var str=""
+        function getStr(a,b){
+            dataAll.movieIds.splice(a,b).map((v,i)=>{
+            return str+=v+"%2C"
+        })
+        str=str.slice(0,str.lastIndexOf("%2C"))
+        return str
+     }
+    
+        axios.get("/maoyan/ajax/moreComingList?token=&movieIds="+getStr(2+10*num,12+10*num)).then(({data})=>{
+           const moreComingList=data.coming;
+           console.log(moreComingList,1)
+        //    console.log("aaa",num)
+        //    console.log(dataAll.movieIds)
+           str=str.split("%2C")
+        //    console.log(str=str.split("%2C"))
+        //    console.log(str[0])
+        //    console.log(dataAll.movieIds.indexOf(str[0]))
+           dispatch({
+               type:'ADD_MORECOMINGLIST',
+               payload:{
+                   moreComingList,
+                   
+               }
+           })
+          
+        })
+        
+        
+            
         },
         getMoreList(dataAll, num) {
             var str = ""
@@ -115,27 +114,18 @@ function mapDispatchToProps(dispatch, action) {
                 return str
             }
 
-            axios.get("/maoyan/ajax/moreComingList?token=&movieIds=" + getStr(2 + 10 * num, 12 + 10 * num)).then(({ data }) => {
+            axios.get("/maoyan/ajax/moreComingList?token=&movieIds=" + getStr(12 + 10 * num, 22 + 10 * num)).then(({ data }) => {
                 const moreComingList = data.coming;
-                //    console.log(moreComingList)
-                //    console.log("aaa",num)
-                //    console.log(dataAll.movieIds)
                 str = str.split("%2C")
-                //    console.log(str=str.split("%2C"))
-                //    console.log(str[0])
-                //    console.log(dataAll.movieIds.indexOf(str[0]))
                 dispatch({
                     type: ADD_MORECOMINGLIST,
                     payload: {
                         moreComingList,
-
                     }
                 })
-
             })
-
-
         }
     }
 }
+
 export default connect(mapStateToProps, mapDispatchToProps)(Movies);

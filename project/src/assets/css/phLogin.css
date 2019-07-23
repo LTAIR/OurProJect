@@ -1,0 +1,39 @@
+.login-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding:10px;
+}
+.login-phone{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px ;
+    height:30px;
+}
+.login-phone :first-child{
+    width:70%;
+   
+}
+.login-phone :first-child:hover{
+background-color: #dcdcdc;
+}
+.login-phone :last-child{
+    color:#000;
+    width:30%;
+    box-sizing: border-box;
+    margin:0 10px;
+}
+.login-main> :nth-child(2){
+    height:30px;
+    padding:4px;
+    box-sizing: border-box;
+    border:0;
+    background-color:#dcdcdc;
+    margin-bottom: 10px;
+}
+div .phone-login-btn{
+    width:100%;
+    color:#999;
+    height:50px;
+    font-size: 20px;
+}

@@ -1,0 +1,41 @@
+.nav-head{
+    height:51px;
+    background-color:red;
+    color:#fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 25px;
+}
+.nav-head :first-child{
+    width:20%;
+    text-align: left;
+    padding-left:20px;
+    font-weight: bold;
+    
+}
+.nav-head :last-child{
+    text-align: center;
+    padding-left:60px;
+    
+}
+.Top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+}
+.loginTop{
+    width:48%;
+   font-size: 18px;
+   line-height: 50px;
+   height:50px;
+   color:#000;
+   text-decoration: none;
+   margin:0 1%;
+
+}
+.isLoginTop{
+    color:red;
+    border-bottom: 2px solid red;
+}

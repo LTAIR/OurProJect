@@ -2,5 +2,9 @@ import movie from './movie'
 import cinema from './cinema'
 import show from './show'
 import hotMovie from './hot'
+import city from './city'
+import cityList from './cityList'
+import myOrder from './myOrder'
+import coupon from './coupon'
 import {combineReducers} from 'redux'
-export default combineReducers({movie,cinema,show,hotMovie});
+export default combineReducers({movie,cinema,show,hotMovie,cityList,city,myOrder,coupon});

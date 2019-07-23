@@ -9,7 +9,8 @@ export default function (state=movieInit,{type,payload}){
     }
     if(type===ADD_MORECOMINGLIST){
         state.moreComingList=state.moreComingList.concat(payload.moreComingList);
-        // console.log(state.moreComingList)
+        state.page=payload.page
+        console.log(state.moreComingList)
     }
     return state
 }

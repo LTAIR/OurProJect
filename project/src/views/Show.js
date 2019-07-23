@@ -6,6 +6,7 @@ import {
 import {
 	connect
 } from 'react-redux'
+import Footer from '../components/footer'
 class Tools{
 	static change(str,newStr){
 		return str.replace("w.h",newStr)
@@ -19,7 +20,7 @@ class Show extends React.Component{
     render(){
 		
         return (
-			<div>
+			
             <div>
 				<div className="show-navbar">
 					<i onClick={()=>this.props.history.push("/cinema")}>&lt;</i>
@@ -65,22 +66,18 @@ class Show extends React.Component{
 					</div>
 					
 				</div>
-				
+				<Footer></Footer>
             </div>
 			
-			</div>
+			
         )
     }
 	componentDidMount(){
-		console.log(11,this.props.show)
 		this.props.getShow(this.props)
-		console.log(1234,this.props.cinemaData)
-		
 		
 	}
 }
 function mapStateToProps(state,props){
-	console.log(1212,props)
 	
 	return{
 		cinemaData:state.show.cinemaData,
@@ -94,9 +91,6 @@ function mapDidpatchToProps(dispatch){
 		getShow(props){
 			axios.get("/maoyan/ajax/cinemaDetail?cinemaId="+props.match.params.id)
 			.then(({data})=>{
-				console.log(999,data)
-				console.log(996,data.showData.movies)
-				console.log(96,data.cinemaData)
 				
 				dispatch({
 					type:"GETSHOW",
