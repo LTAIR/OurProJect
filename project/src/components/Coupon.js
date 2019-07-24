@@ -42,7 +42,7 @@ function mapStateToProps(state) {
 function mapDispatchToProps(dispatch) {
     return {
         getCoupon() {
-            axios.get("/code/assets/json/compon.json").then(({ data }) => {
+            axios.get("./json/compon.json").then(({ data }) => {
                 console.log(data.couponlist)
                 const coupon = data.couponlist;
                 dispatch({

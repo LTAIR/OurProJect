@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.815e1e20.chunk.css",
+    "main.js": "/static/js/main.62bf69cf.chunk.js",
+    "main.js.map": "/static/js/main.62bf69cf.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.724a021a.chunk.js": "/static/js/2.724a021a.chunk.js",
+    "static/js/2.724a021a.chunk.js.map": "/static/js/2.724a021a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.31f32430adc3f7bba7dcbec5390dade2.js": "/precache-manifest.31f32430adc3f7bba7dcbec5390dade2.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.815e1e20.chunk.css.map": "/static/css/main.815e1e20.chunk.css.map",
+    "static/media/4fcec0724e23f.jpg": "/static/media/4fcec0724e23f.66d19da9.jpg",
+    "static/media/coupon.css": "/static/media/a6a2080c4171a550e1e13d8300820684ba1bacbc9555-bi0fdM_fw658.2a16dc1a.jpg",
+    "static/media/iconfont.css": "/static/media/iconfont.ee0425bc.ttf"
+  }
+}

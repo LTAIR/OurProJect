@@ -1,0 +1,551 @@
+2019/07/17 14:21:38 [error] 12216#7584: *1 CreateFile() "e:\three\nginx\nginx-1.16.0/html/sum" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sum HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1:5500/nginx/one.html"
+2019/07/17 14:23:13 [notice] 15936#2780: signal process started
+2019/07/17 14:23:13 [emerg] 764#10696: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2019/07/17 14:24:56 [notice] 17796#8020: signal process started
+2019/07/17 14:24:56 [emerg] 764#10696: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2019/07/17 14:26:16 [notice] 13760#17688: signal process started
+2019/07/17 14:26:16 [emerg] 764#10696: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2019/07/17 14:28:20 [notice] 16372#9980: signal process started
+2019/07/17 14:28:20 [emerg] 764#10696: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2019/07/17 14:29:16 [error] 12216#7584: *19 CreateFile() "e:\three\nginx\nginx-1.16.0/html/sum" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sum HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/index.html"
+2019/07/17 14:30:04 [emerg] 11700#13952: unexpected "}" in e:\three\nginx\nginx-1.16.0/conf/nginx.conf:61
+2019/07/17 14:30:06 [error] 12216#7584: *19 CreateFile() "e:\three\nginx\nginx-1.16.0/html/sum" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sum HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/index.html"
+2019/07/17 14:30:33 [notice] 8920#16972: signal process started
+2019/07/17 14:30:33 [emerg] 764#10696: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2019/07/17 14:30:34 [error] 12216#7584: *19 CreateFile() "e:\three\nginx\nginx-1.16.0/html/sum" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sum HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/index.html"
+2019/07/17 14:30:35 [error] 12216#7584: *19 CreateFile() "e:\three\nginx\nginx-1.16.0/html/sum" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sum HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/index.html"
+2019/07/17 14:33:47 [error] 12216#7584: *24 CreateFile() "e:\three\nginx\nginx-1.16.0/html/sum" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sum HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/index.html"
+2019/07/17 14:33:47 [error] 12216#7584: *24 CreateFile() "e:\three\nginx\nginx-1.16.0/html/sum" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sum HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/index.html"
+2019/07/17 14:33:55 [error] 12216#7584: *24 CreateFile() "e:\three\nginx\nginx-1.16.0/html/sum" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sum HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/index.html"
+2019/07/17 14:33:55 [error] 12216#7584: *24 CreateFile() "e:\three\nginx\nginx-1.16.0/html/sum" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sum HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/index.html"
+2019/07/17 14:33:56 [error] 12216#7584: *24 CreateFile() "e:\three\nginx\nginx-1.16.0/html/sum" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sum HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/index.html"
+2019/07/17 14:33:57 [error] 12216#7584: *24 CreateFile() "e:\three\nginx\nginx-1.16.0/html/sum" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sum HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/index.html"
+2019/07/17 14:34:07 [error] 12216#7584: *24 CreateFile() "e:\three\nginx\nginx-1.16.0/html/sum" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sum HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/index.html"
+2019/07/17 14:34:08 [error] 12216#7584: *24 CreateFile() "e:\three\nginx\nginx-1.16.0/html/sum" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sum HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/index.html"
+2019/07/17 14:34:31 [error] 12216#7584: *24 CreateFile() "e:\three\nginx\nginx-1.16.0/html/sum" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sum HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/index.html"
+2019/07/17 14:34:31 [error] 12216#7584: *24 CreateFile() "e:\three\nginx\nginx-1.16.0/html/sum" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sum HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/index.html"
+2019/07/17 14:34:46 [error] 12216#7584: *24 CreateFile() "e:\three\nginx\nginx-1.16.0/html/sum" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sum HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/index.html"
+2019/07/17 14:34:46 [error] 12216#7584: *24 CreateFile() "e:\three\nginx\nginx-1.16.0/html/sum" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sum HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/index.html"
+2019/07/17 14:34:47 [error] 12216#7584: *24 CreateFile() "e:\three\nginx\nginx-1.16.0/html/sum" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sum HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/index.html"
+2019/07/17 14:35:03 [error] 12216#7584: *24 CreateFile() "e:\three\nginx\nginx-1.16.0/html/sum" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /sum HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/07/17 14:35:25 [error] 12216#7584: *24 CreateFile() "e:\three\nginx\nginx-1.16.0/html/asdadsadsd" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /asdadsadsd HTTP/1.1", host: "127.0.0.1"
+2019/07/17 14:35:33 [notice] 3776#17292: signal process started
+2019/07/17 14:35:33 [emerg] 764#10696: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2019/07/17 14:35:34 [error] 12216#7584: *24 CreateFile() "e:\three\nginx\nginx-1.16.0/html/asdadsadsd" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /asdadsadsd HTTP/1.1", host: "127.0.0.1"
+2019/07/17 14:35:35 [error] 12216#7584: *24 CreateFile() "e:\three\nginx\nginx-1.16.0/html/asdadsadsd" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /asdadsadsd HTTP/1.1", host: "127.0.0.1"
+2019/07/17 14:35:42 [error] 12216#7584: *24 CreateFile() "e:\three\nginx\nginx-1.16.0/html/adsaad" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /adsaad HTTP/1.1", host: "127.0.0.1"
+2019/07/17 14:36:02 [notice] 10368#5472: signal process started
+2019/07/17 14:36:02 [emerg] 764#10696: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2019/07/17 14:36:04 [error] 12216#7584: *24 CreateFile() "e:\three\nginx\nginx-1.16.0/html/adsaad" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /adsaad HTTP/1.1", host: "127.0.0.1"
+2019/07/17 14:36:04 [error] 12216#7584: *24 CreateFile() "e:\three\nginx\nginx-1.16.0/html/adsaad" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /adsaad HTTP/1.1", host: "127.0.0.1"
+2019/07/17 14:36:05 [error] 12216#7584: *24 CreateFile() "e:\three\nginx\nginx-1.16.0/html/adsaad" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /adsaad HTTP/1.1", host: "127.0.0.1"
+2019/07/17 14:36:09 [notice] 19544#2796: signal process started
+2019/07/17 14:36:09 [emerg] 764#10696: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2019/07/17 14:36:15 [error] 12216#7584: *24 CreateFile() "e:\three\nginx\nginx-1.16.0/html/aa" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /aa HTTP/1.1", host: "127.0.0.1"
+2019/07/17 14:36:26 [notice] 9948#7924: signal process started
+2019/07/17 14:36:32 [error] 15324#16804: *36 CreateFile() "e:\three\nginx\nginx-1.16.0/html/aa" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /aa HTTP/1.1", host: "127.0.0.1:8081"
+2019/07/17 14:36:32 [error] 15324#16804: *36 CreateFile() "e:\three\nginx\nginx-1.16.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8081", referrer: "http://127.0.0.1:8081/aa"
+2019/07/17 14:39:27 [notice] 1036#14448: signal process started
+2019/07/17 14:39:30 [crit] 17208#16236: *38 CreateFile() "E:	hree
+ginx\dist/aa" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /aa HTTP/1.1", host: "127.0.0.1:8081"
+2019/07/17 14:39:36 [crit] 17208#16236: *39 GetFileAttributesEx() "E:	hree
+ginx\dist" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8081"
+2019/07/17 14:39:39 [crit] 17208#16236: *40 GetFileAttributesEx() "E:	hree
+ginx\dist" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8081"
+2019/07/17 14:39:46 [notice] 16596#9960: signal process started
+2019/07/17 14:39:53 [crit] 16392#17440: *43 GetFileAttributesEx() "E:	hree
+ginx\dist" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8081"
+2019/07/17 14:40:17 [crit] 16392#17440: *45 CreateFile() "E:	hree
+ginx\dist/index" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index HTTP/1.1", host: "127.0.0.1:8081"
+2019/07/17 14:40:54 [emerg] 16160#7584: duplicate location "/" in e:\three\nginx\nginx-1.16.0/conf/nginx.conf:59
+2019/07/17 14:40:58 [emerg] 7400#1256: duplicate location "/" in e:\three\nginx\nginx-1.16.0/conf/nginx.conf:59
+2019/07/17 14:42:10 [crit] 16392#17440: *48 GetFileAttributesEx() "E:	hree
+ginx\dist" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8081"
+2019/07/17 14:42:10 [crit] 16392#17440: *49 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
+2019/07/17 14:43:19 [notice] 20064#14760: signal process started
+2019/07/17 14:43:36 [crit] 7564#17780: *51 GetFileAttributesEx() "E:	hree
+ginx\dist" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8082"
+2019/07/17 14:43:36 [crit] 7564#17780: *51 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8082"
+2019/07/17 14:43:36 [crit] 7564#17780: *52 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8082", referrer: "http://localhost:8082/"
+2019/07/17 14:43:36 [crit] 7564#17780: *52 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8082", referrer: "http://localhost:8082/"
+2019/07/17 14:43:41 [crit] 7564#17780: *53 GetFileAttributesEx() "E:	hree
+ginx\dist" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8082"
+2019/07/17 14:43:41 [crit] 7564#17780: *53 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8082"
+2019/07/17 14:43:42 [crit] 7564#17780: *54 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8082", referrer: "http://localhost:8082/"
+2019/07/17 14:43:42 [crit] 7564#17780: *54 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8082", referrer: "http://localhost:8082/"
+2019/07/17 14:44:06 [notice] 15308#6220: signal process started
+2019/07/17 14:44:08 [crit] 1372#15540: *55 GetFileAttributesEx() "E:	hree
+ginx\dist" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2019/07/17 14:44:08 [crit] 1372#15540: *55 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2019/07/17 14:44:08 [crit] 1372#15540: *56 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2019/07/17 14:44:08 [crit] 1372#15540: *56 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2019/07/17 14:44:42 [crit] 1372#15540: *58 GetFileAttributesEx() "E:	hree
+ginx\dist" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2019/07/17 14:44:42 [crit] 1372#15540: *58 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2019/07/17 14:44:42 [crit] 1372#15540: *59 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2019/07/17 14:44:42 [crit] 1372#15540: *59 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2019/07/17 14:44:43 [crit] 1372#15540: *60 GetFileAttributesEx() "E:	hree
+ginx\dist" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2019/07/17 14:44:43 [crit] 1372#15540: *60 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2019/07/17 14:44:43 [crit] 1372#15540: *61 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2019/07/17 14:44:43 [crit] 1372#15540: *61 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2019/07/17 14:44:43 [crit] 1372#15540: *62 GetFileAttributesEx() "E:	hree
+ginx\dist" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2019/07/17 14:44:43 [crit] 1372#15540: *62 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2019/07/17 14:44:44 [crit] 1372#15540: *63 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2019/07/17 14:44:44 [crit] 1372#15540: *63 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2019/07/17 14:44:44 [crit] 1372#15540: *64 GetFileAttributesEx() "E:	hree
+ginx\dist" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2019/07/17 14:44:44 [crit] 1372#15540: *64 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2019/07/17 14:44:44 [crit] 1372#15540: *65 GetFileAttributesEx() "E:	hree
+ginx\dist" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2019/07/17 14:44:44 [crit] 1372#15540: *65 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2019/07/17 14:44:44 [crit] 1372#15540: *66 GetFileAttributesEx() "E:	hree
+ginx\dist" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2019/07/17 14:44:44 [crit] 1372#15540: *66 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2019/07/17 14:44:44 [crit] 1372#15540: *67 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2019/07/17 14:44:44 [crit] 1372#15540: *67 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2019/07/17 14:45:12 [notice] 16956#14520: signal process started
+2019/07/17 14:45:15 [crit] 1372#15540: *70 GetFileAttributesEx() "E:	hree
+ginx\dist" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2019/07/17 14:45:15 [crit] 1372#15540: *70 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2019/07/17 14:45:15 [crit] 1372#15540: *71 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2019/07/17 14:45:15 [crit] 1372#15540: *71 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2019/07/17 14:46:05 [crit] 1372#15540: *73 CreateFile() "E:	hree
+ginx\dist/index" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index HTTP/1.1", host: "localhost"
+2019/07/17 14:46:05 [crit] 1372#15540: *73 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index HTTP/1.1", host: "localhost"
+2019/07/17 14:46:05 [crit] 1372#15540: *74 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/index"
+2019/07/17 14:46:05 [crit] 1372#15540: *74 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/index"
+2019/07/17 14:46:12 [crit] 1372#15540: *75 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "localhost"
+2019/07/17 14:46:12 [crit] 1372#15540: *75 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "localhost"
+2019/07/17 14:46:12 [crit] 1372#15540: *76 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/index.html"
+2019/07/17 14:46:12 [crit] 1372#15540: *76 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/index.html"
+2019/07/17 14:46:49 [crit] 1372#15540: *79 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "localhost"
+2019/07/17 14:46:49 [crit] 1372#15540: *79 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "localhost"
+2019/07/17 14:46:49 [crit] 1372#15540: *80 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/index.html"
+2019/07/17 14:46:49 [crit] 1372#15540: *80 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/index.html"
+2019/07/17 14:46:50 [crit] 1372#15540: *81 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "localhost"
+2019/07/17 14:46:50 [crit] 1372#15540: *81 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "localhost"
+2019/07/17 14:46:50 [crit] 1372#15540: *82 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/index.html"
+2019/07/17 14:46:50 [crit] 1372#15540: *82 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/index.html"
+2019/07/17 14:47:02 [crit] 1372#15540: *83 CreateFile() "E:	hree
+ginx\dist/sum" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /sum HTTP/1.1", host: "127.0.0.1"
+2019/07/17 14:47:02 [crit] 1372#15540: *83 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /sum HTTP/1.1", host: "127.0.0.1"
+2019/07/17 14:47:13 [crit] 1372#15540: *85 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1"
+2019/07/17 14:47:13 [crit] 1372#15540: *85 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1"
+2019/07/17 14:48:10 [notice] 2196#19112: signal process started
+2019/07/17 14:48:12 [crit] 1372#15540: *87 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1"
+2019/07/17 14:48:12 [crit] 1372#15540: *87 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1"
+2019/07/17 14:50:04 [notice] 19296#19100: signal process started
+2019/07/17 14:50:11 [crit] 6800#15416: *1 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8081"
+2019/07/17 14:50:11 [crit] 6800#15416: *1 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8081"
+2019/07/17 14:50:46 [crit] 6800#15416: *4 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8081"
+2019/07/17 14:50:46 [crit] 6800#15416: *4 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8081"
+2019/07/17 14:50:46 [crit] 6800#15416: *5 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8081"
+2019/07/17 14:50:46 [crit] 6800#15416: *5 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8081"
+2019/07/17 14:50:51 [notice] 8632#14288: signal process started
+2019/07/17 14:50:52 [crit] 6800#15416: *6 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8081"
+2019/07/17 14:50:52 [crit] 6800#15416: *6 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8081"
+2019/07/17 14:52:02 [notice] 16448#17052: signal process started
+2019/07/17 14:52:07 [crit] 11400#4748: *8 CreateFile() "E:	hree
+ginx\dist/xx" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /xx HTTP/1.1", host: "127.0.0.1:8081"
+2019/07/17 14:52:55 [crit] 1372#15540: *90 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1"
+2019/07/17 14:52:55 [crit] 1372#15540: *90 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1"
+2019/07/17 14:53:01 [crit] 1372#15540: *91 CreateFile() "E:	hree
+ginx\dist/xx.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /xx.html HTTP/1.1", host: "127.0.0.1"
+2019/07/17 14:53:01 [crit] 1372#15540: *91 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /xx.html HTTP/1.1", host: "127.0.0.1"
+2019/07/17 14:55:03 [notice] 11960#19988: signal process started
+2019/07/17 14:55:11 [crit] 17844#2216: *13 GetFileAttributesEx() "E:	hree
+ginx\dist" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8081"
+2019/07/17 14:55:11 [crit] 17844#2216: *13 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8081"
+2019/07/17 14:55:20 [crit] 17844#2216: *14 CreateFile() "E:	hree
+ginx\dist/hhh" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /hhh HTTP/1.1", host: "127.0.0.1:8081"
+2019/07/17 14:55:20 [crit] 17844#2216: *14 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /hhh HTTP/1.1", host: "127.0.0.1:8081"
+2019/07/17 14:56:12 [crit] 17844#2216: *17 CreateFile() "E:	hree
+ginx\dist/hhh" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /hhh HTTP/1.1", host: "127.0.0.1:8081"
+2019/07/17 14:56:12 [crit] 17844#2216: *17 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /hhh HTTP/1.1", host: "127.0.0.1:8081"
+2019/07/17 14:56:24 [notice] 12356#2068: signal process started
+2019/07/17 14:56:28 [crit] 17828#712: *20 CreateFile() "E:	hree
+ginx\dist/hhh" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /hhh HTTP/1.1", host: "127.0.0.1:8081"
+2019/07/17 14:56:28 [crit] 17828#712: *20 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /hhh HTTP/1.1", host: "127.0.0.1:8081"
+2019/07/17 14:56:29 [crit] 17828#712: *21 CreateFile() "E:	hree
+ginx\dist/hhh" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /hhh HTTP/1.1", host: "127.0.0.1:8081"
+2019/07/17 14:56:29 [crit] 17828#712: *21 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /hhh HTTP/1.1", host: "127.0.0.1:8081"
+2019/07/17 14:56:33 [crit] 17828#712: *22 GetFileAttributesEx() "E:	hree
+ginx\dist" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8081"
+2019/07/17 14:56:33 [crit] 17828#712: *22 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8081"
+2019/07/17 14:56:41 [crit] 17828#712: *23 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8081"
+2019/07/17 14:56:41 [crit] 17828#712: *23 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8081"
+2019/07/17 14:56:54 [notice] 11400#568: signal process started
+2019/07/17 14:56:58 [crit] 14772#5588: *26 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:56:58 [crit] 14772#5588: *26 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:56:58 [crit] 14772#5588: *27 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:56:58 [crit] 14772#5588: *27 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:23 [notice] 2216#17592: signal process started
+2019/07/17 14:57:26 [crit] 14772#5588: *28 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:26 [crit] 14772#5588: *28 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:26 [crit] 14772#5588: *29 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:26 [crit] 14772#5588: *29 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:45 [notice] 18544#696: signal process started
+2019/07/17 14:57:46 [notice] 17080#8992: signal process started
+2019/07/17 14:57:46 [error] 17080#8992: CreateFile() "e:\three\nginx\nginx-1.16.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2019/07/17 14:57:53 [notice] 16328#20280: signal process started
+2019/07/17 14:57:55 [crit] 14772#5588: *30 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:55 [crit] 14772#5588: *30 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:55 [crit] 14772#5588: *31 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:55 [crit] 14772#5588: *31 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:55 [crit] 14772#5588: *32 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:55 [crit] 14772#5588: *32 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:55 [crit] 14772#5588: *33 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:55 [crit] 14772#5588: *33 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:56 [crit] 14772#5588: *34 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:56 [crit] 14772#5588: *34 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:56 [crit] 14772#5588: *35 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:56 [crit] 14772#5588: *35 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:56 [crit] 14772#5588: *36 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:56 [crit] 14772#5588: *36 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:56 [crit] 14772#5588: *37 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:56 [crit] 14772#5588: *37 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:56 [crit] 14772#5588: *38 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:56 [crit] 14772#5588: *38 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:56 [crit] 14772#5588: *39 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:56 [crit] 14772#5588: *39 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:56 [crit] 14772#5588: *40 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:56 [crit] 14772#5588: *40 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:56 [crit] 14772#5588: *41 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:56 [crit] 14772#5588: *41 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:56 [crit] 14772#5588: *42 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:56 [crit] 14772#5588: *42 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:56 [crit] 14772#5588: *43 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:56 [crit] 14772#5588: *43 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:57 [crit] 14772#5588: *44 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:57 [crit] 14772#5588: *44 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:57 [crit] 14772#5588: *45 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:57 [crit] 14772#5588: *45 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:57 [crit] 14772#5588: *46 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:57 [crit] 14772#5588: *46 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:57 [crit] 14772#5588: *47 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:57 [crit] 14772#5588: *47 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:57 [crit] 14772#5588: *48 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:57 [crit] 14772#5588: *48 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:57 [crit] 14772#5588: *49 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:57 [crit] 14772#5588: *49 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:57 [crit] 14772#5588: *50 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:57 [crit] 14772#5588: *50 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:57 [crit] 14772#5588: *51 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:57 [crit] 14772#5588: *51 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:57 [crit] 14772#5588: *52 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:57 [crit] 14772#5588: *52 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:57 [crit] 14772#5588: *53 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:57 [crit] 14772#5588: *53 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:57 [crit] 14772#5588: *54 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:57 [crit] 14772#5588: *54 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:57 [crit] 14772#5588: *55 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:57 [crit] 14772#5588: *55 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:58 [crit] 14772#5588: *56 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:58 [crit] 14772#5588: *56 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:58 [crit] 14772#5588: *57 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:58 [crit] 14772#5588: *57 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:58 [crit] 14772#5588: *58 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:58 [crit] 14772#5588: *58 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:58 [crit] 14772#5588: *59 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:58 [crit] 14772#5588: *59 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:58 [crit] 14772#5588: *60 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:58 [crit] 14772#5588: *60 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:58 [crit] 14772#5588: *61 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:58 [crit] 14772#5588: *61 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:58 [crit] 14772#5588: *62 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:58 [crit] 14772#5588: *62 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:58 [crit] 14772#5588: *63 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:58 [crit] 14772#5588: *63 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:58 [crit] 14772#5588: *64 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:58 [crit] 14772#5588: *64 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:58 [crit] 14772#5588: *65 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:58 [crit] 14772#5588: *65 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:58 [crit] 14772#5588: *66 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:58 [crit] 14772#5588: *66 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:58 [crit] 14772#5588: *67 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:58 [crit] 14772#5588: *67 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:59 [crit] 14772#5588: *68 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:59 [crit] 14772#5588: *68 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:59 [crit] 14772#5588: *69 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:59 [crit] 14772#5588: *69 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:59 [crit] 14772#5588: *70 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:59 [crit] 14772#5588: *70 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:59 [crit] 14772#5588: *71 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:59 [crit] 14772#5588: *71 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:59 [crit] 14772#5588: *72 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:59 [crit] 14772#5588: *72 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 14:57:59 [crit] 14772#5588: *73 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 14:57:59 [crit] 14772#5588: *73 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 15:00:14 [crit] 14772#5588: *74 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 15:00:14 [crit] 14772#5588: *74 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 15:00:14 [crit] 14772#5588: *75 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 15:00:14 [crit] 14772#5588: *75 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 15:00:15 [crit] 14772#5588: *76 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 15:00:15 [crit] 14772#5588: *76 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 15:00:16 [crit] 14772#5588: *77 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 15:00:16 [crit] 14772#5588: *77 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 15:05:26 [notice] 18812#12776: signal process started
+2019/07/17 15:05:28 [crit] 16528#17352: *1 CreateFile() "E:	hree
+ginx\dist/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 15:05:28 [crit] 16528#17352: *1 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8082"
+2019/07/17 15:05:28 [crit] 16528#17352: *2 CreateFile() "E:	hree
+ginx\dist/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/17 15:05:28 [crit] 16528#17352: *2 CreateFile() "E:	hree
+ginx\dist/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8082", referrer: "http://127.0.0.1:8082/index.html"
+2019/07/23 20:04:54 [crit] 10992#13408: *1 CreateFile() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build/index.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1"
+2019/07/23 20:04:54 [crit] 10992#13408: *1 CreateFile() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "127.0.0.1"
+2019/07/23 20:04:54 [crit] 10992#13408: *2 CreateFile() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/index.html"
+2019/07/23 20:04:54 [crit] 10992#13408: *2 CreateFile() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/index.html"
+2019/07/23 20:04:59 [crit] 10992#13408: *3 GetFileAttributesEx() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2019/07/23 20:04:59 [crit] 10992#13408: *3 CreateFile() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2019/07/23 20:04:59 [crit] 10992#13408: *4 CreateFile() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/07/23 20:04:59 [crit] 10992#13408: *4 CreateFile() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/07/23 20:07:55 [crit] 10992#13408: *5 GetFileAttributesEx() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2019/07/23 20:07:55 [crit] 10992#13408: *5 CreateFile() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2019/07/23 20:07:56 [crit] 10992#13408: *6 CreateFile() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/07/23 20:07:56 [crit] 10992#13408: *6 CreateFile() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/07/23 20:11:22 [crit] 10992#13408: *7 GetFileAttributesEx() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2019/07/23 20:11:22 [crit] 10992#13408: *7 CreateFile() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2019/07/23 20:11:22 [crit] 10992#13408: *8 CreateFile() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/07/23 20:11:22 [crit] 10992#13408: *8 CreateFile() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/07/23 20:11:23 [crit] 10992#13408: *9 GetFileAttributesEx() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2019/07/23 20:11:23 [crit] 10992#13408: *9 CreateFile() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2019/07/23 20:11:23 [crit] 10992#13408: *10 CreateFile() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/07/23 20:11:23 [crit] 10992#13408: *10 CreateFile() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/07/23 20:13:03 [crit] 10992#13408: *11 CreateFile() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build/sendCode" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /sendCode HTTP/1.1", host: "127.0.0.1"
+2019/07/23 20:13:03 [crit] 10992#13408: *11 CreateFile() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /sendCode HTTP/1.1", host: "127.0.0.1"
+2019/07/23 20:13:03 [crit] 10992#13408: *12 CreateFile() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/sendCode"
+2019/07/23 20:13:03 [crit] 10992#13408: *12 CreateFile() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/sendCode"
+2019/07/23 20:13:18 [crit] 10992#13408: *13 GetFileAttributesEx() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2019/07/23 20:13:18 [crit] 10992#13408: *13 CreateFile() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2019/07/23 20:13:18 [crit] 10992#13408: *14 CreateFile() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/07/23 20:13:18 [crit] 10992#13408: *14 CreateFile() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/07/23 20:13:42 [emerg] 24384#15824: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2019/07/23 20:14:01 [notice] 24156#12644: signal process started
+2019/07/23 20:14:01 [emerg] 22636#23928: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2019/07/23 20:14:08 [crit] 10992#13408: *16 GetFileAttributesEx() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2019/07/23 20:14:08 [crit] 10992#13408: *16 CreateFile() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2019/07/23 20:14:08 [crit] 10992#13408: *17 CreateFile() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/07/23 20:14:08 [crit] 10992#13408: *17 CreateFile() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/07/23 20:14:09 [crit] 10992#13408: *18 GetFileAttributesEx() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2019/07/23 20:14:09 [crit] 10992#13408: *18 CreateFile() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2019/07/23 20:14:09 [crit] 10992#13408: *19 CreateFile() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/07/23 20:14:09 [crit] 10992#13408: *19 CreateFile() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/07/23 20:14:20 [crit] 10992#13408: *20 GetFileAttributesEx() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2019/07/23 20:14:20 [crit] 10992#13408: *20 CreateFile() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2019/07/23 20:14:20 [crit] 10992#13408: *21 CreateFile() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/07/23 20:14:20 [crit] 10992#13408: *21 CreateFile() "E:	hree\Cateye\OurProJect\project
+ginx-1.16.0\html\build/50x.html" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/07/23 20:23:45 [notice] 24220#16944: signal process started

@@ -54,7 +54,7 @@ function mapStateToProps(state){
 function mapDispatchToProps(dispatch){
     return {
         getOrder(){
-            axios.get("/code/assets/json/order.json").then(({data})=>{
+            axios.get("./json/order.json").then(({data})=>{
                 const orderList=data.orderlist;
                 dispatch({
                     type:"GET_ORDER",

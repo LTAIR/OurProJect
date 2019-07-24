@@ -36,8 +36,8 @@ function mapStateToProps(state){
 function mapDispatchToProps(dispatch){
   return {
       getCity(){
-          axios.get("/code/assets/json/data.json").then(({data})=>{
-              console.log(data)
+          axios.get("./json/data.json").then(({data})=>{
+              console.log(data,111)
              dispatch({
                   type:"GET_CITY_LIST",
                   payload:{

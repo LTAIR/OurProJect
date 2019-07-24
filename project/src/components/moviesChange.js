@@ -37,8 +37,8 @@ import CityList from './CityList'
         )
     }
     getCity(){
-        axios.get("/code/assets/json/data.json").then(({data})=>{
-            console.log(data)
+        axios.get("./json/data.json").then(({data})=>{
+            console.log(data,111111)
        this.setState={
            cities:data
        }
