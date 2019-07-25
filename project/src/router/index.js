@@ -17,13 +17,23 @@ import Live from '../components/Live'
 import Card from '../components/Card'
 export default [
     {
-        path: "/",
+        path: "/movie",
         alias: "/movie",
         component: Movie,
         name: "电影",
         isShow: true,
         exact: true,
+        child:[{
+            
+                path: "/movie/f-hot",
+                component: Hot,
+                name: "即将上映",
+                isShow: true,
+                exact: true,
+            
+        }]
     },
+    
     {
         path: "/cinema",
         component: Cinema,
@@ -61,15 +71,9 @@ export default [
         isShow: false,
         exact: true,
     },
+   
     {
-        path: "/movie/f-hot",
-        component: Hot,
-        name: "即将上映",
-        isShow: true,
-        exact: true,
-    },
-    {
-        path: "/movie",
+        path: "/movie/",
         component: Movie,
         name: "电影",
         exact: true,
@@ -92,11 +96,8 @@ export default [
         component:HuoQu,
         name:"电影详情",
         exact:true
-
-        
     },
- 
-   
+
      {
             path:"/movie/f-hot",
             component:Hot,

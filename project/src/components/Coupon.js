@@ -15,16 +15,16 @@ class Coupon extends React.Component {
                     this.props.coupon.map((v, i) => {
                         return (
                             <div key={v.code} className="couponAll">
-                                <div className="couponLeft"style={{backgroundColor:v.leftDate?"#ff9d00":"gray"}}>
-                                <p><span  className={"num"}>{v.value}</span>元</p><hr/><p>代金券</p>
+                                <div className="couponLeft" style={{ backgroundColor: v.leftDate ? "#ff9d00" : "gray" }}>
+                                    <p><span className={"num"}>{v.value}</span>元</p><hr /><p>代金券</p>
                                 </div>
-                                <div  className={v.leftDate?"couponRight":"couponRighto"}>
-                                <p className={"title"}>{v.title}</p>
-                                     <p className={"limitDesc"}>{v.limitDesc}</p>
-                                     <hr/>
-                                     <p  className={"rangeTime"}>{v.rangeTime}</p>
-                                     {v.leftDate?<p className="leftDate">{v.leftDate}</p>:""}
-                                     </div>
+                                <div className={v.leftDate ? "couponRight" : "couponRighto"}>
+                                    <p className={"title"}>{v.title}</p>
+                                    <p className={"limitDesc"}>{v.limitDesc}</p>
+                                    <hr />
+                                    <p className={"rangeTime"}>{v.rangeTime}</p>
+                                    {v.leftDate ? <p className="leftDate">{v.leftDate}</p> : ""}
+                                </div>
                             </div>
                         )
                     })
